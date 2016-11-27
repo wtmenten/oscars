@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902e562a-7f43-4f29-853b-c03b10129e25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Prelim Analysis.ipynb" afterPath="$PROJECT_DIR$/models/Prelim Analysis.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/kerasTest.py" afterPath="$PROJECT_DIR$/models/kerasTest.py" />
     </list>
     <ignored path="oscars.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kerasTest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kerasTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/kerasTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+            <state relative-caret-position="212">
+              <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -36,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prelim Analysis.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Prelim Analysis.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Prelim Analysis.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -111,8 +110,8 @@
       <list>
         <option value="$PROJECT_DIR$/models/gam.R" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/models/kerasTest.py" />
         <option value="$PROJECT_DIR$/models/Prelim Analysis.ipynb" />
+        <option value="$PROJECT_DIR$/models/kerasTest.py" />
       </list>
     </option>
   </component>
@@ -597,20 +596,20 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/kerasTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Prelim Analysis.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/kerasTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

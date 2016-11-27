@@ -31,27 +31,27 @@ def _load_data():
     df = pd.read_csv("AA_4_computed.csv")
     # print df.columns
     ## for single row version of model
-    # train_set_x = df[[5, 6, 8, 10, 17]].fillna(0).values.tolist()
-    # train_set_y = df[[2]].values.tolist()
-    # return (train_set_x, train_set_y)
+    train_set_x = df[[5, 6, 8, 10, 17]].fillna(0).values.tolist()
+    train_set_y = df[[2]].values.tolist()
+    return (train_set_x, train_set_y)
 
     ## for covolutional seasonal version
-    g = df.groupby(['year']).groups.items()
-    seasons = len(g)
-    maxSeasonlen = 12
-    np.zeros_like((seasons, maxSeasonlen))
-    out = (np.zeros((seasons, maxSeasonlen, 5)),np.zeros((seasons, maxSeasonlen, 1)))
-    # print out[0][1]
-    for index, (s, idxs) in enumerate(g):
-        season = [df.fillna(0).iloc[i].values for i in idxs]
-        newx = [[m[5],m[6],m[8],m[10],m[17],] for m in season]
-        newy = [[m[2]] for m in season]
-        out[0][index][:len(newx)] = newx
-        out[1][index][:len(newx)] = newy
-    maxSeasonlen = max(map(len, out[1]))
-    # print out[0][1]
-    # print(maxSeasonlen)
-    return out
+    # g = df.groupby(['year']).groups.items()
+    # seasons = len(g)
+    # maxSeasonlen = 12
+    # np.zeros_like((seasons, maxSeasonlen))
+    # out = (np.zeros((seasons, maxSeasonlen, 5)),np.zeros((seasons, maxSeasonlen, 1)))
+    # # print out[0][1]
+    # for index, (s, idxs) in enumerate(g):
+    #     season = [df.fillna(0).iloc[i].values for i in idxs]
+    #     newx = [[m[5],m[6],m[8],m[10],m[17],] for m in season]
+    #     newy = [[m[2]] for m in season]
+    #     out[0][index][:len(newx)] = newx
+    #     out[1][index][:len(newx)] = newy
+    # maxSeasonlen = max(map(len, out[1]))
+    # # print out[0][1]
+    # # print(maxSeasonlen)
+    # return out
 
 
 # TODO make generator for this
@@ -95,32 +95,32 @@ def run_model(data, hyperParams):
     l2_neurons = hyperParams["l2_neurons"]
     model = Sequential()
     ## for single movie pred version
-    # model.add(Dense((300), input_dim=(input_dim)))
-    # model.add(Dropout(.3))
-    # model.add(Activation('sigmoid'))
-    # model.add(Dense((out_neurons), input_dim=(input_dim)))
-    # model.add(Activation('hard_sigmoid'))
-    # model.compile(loss="binary_crossentropy", optimizer="Adagrad")
-
-    # for seasonal version
-    model.add(Convolution1D(1, 0, input_shape=(12, 5)))
-
-    # model.add(MaxPooling1D(1, input_shape=(12,input_dim)))
-    # model.add(LSTM(l1_neurons, return_sequences=True, input_shape=(num_of_vectors, input_dim)))
-    # model.add(Dropout(l1_drop))
-    # model.add(Activation('tanh'))
-    # model.add(Flatten())
-    # model.add(Reshape((78,12)))
-    # model.add(LSTM(l1_neurons, return_sequences=False, go_backwards=True, input_shape=(78, 12, 1)))
-    # model.add(Activation('relu'))
-    model.add(Dense((12)))
-
-    model.add(Dense((300)))
+    model.add(Dense((300), input_dim=(input_dim)))
     model.add(Dropout(.3))
-    model.add(Activation('relu'))
+    model.add(Activation('sigmoid'))
     model.add(Dense((out_neurons)))
     model.add(Activation('hard_sigmoid'))
-    model.compile(loss="categorical_crossentropy", optimizer="adam")
+    model.compile(loss="binary_crossentropy", optimizer="Adagrad")
+
+    # # for seasonal version
+    # model.add(Convolution1D(1, 0, input_shape=(12, 5)))
+    #
+    # # model.add(MaxPooling1D(1, input_shape=(12,input_dim)))
+    # # model.add(LSTM(l1_neurons, return_sequences=True, input_shape=(num_of_vectors, input_dim)))
+    # # model.add(Dropout(l1_drop))
+    # # model.add(Activation('tanh'))
+    # # model.add(Flatten())
+    # # model.add(Reshape((78,12)))
+    # # model.add(LSTM(l1_neurons, return_sequences=False, go_backwards=True, input_shape=(78, 12, 1)))
+    # # model.add(Activation('relu'))
+    # model.add(Dense((12)))
+    #
+    # model.add(Dense((300)))
+    # model.add(Dropout(.3))
+    # model.add(Activation('relu'))
+    # model.add(Dense((out_neurons)))
+    # model.add(Activation('hard_sigmoid'))
+    # model.compile(loss="categorical_crossentropy", optimizer="adam")
 
 
     # data2 = _prepare_data(data[:2], num_of_vectors)
@@ -138,7 +138,8 @@ def run_model(data, hyperParams):
 data = _load_data()
 optimalHyperParams = {'l1_drop': 0.5, 'l1_neurons': 200, 'time_series_len': 100, 'l2_neurons': 250}
 currentHyperParams = optimalHyperParams
-currentHyperParams['out_neurons'] = 12
+currentHyperParams['out_neurons'] = 1
+# currentHyperParams['out_neurons'] = 12
 currentHyperParams['input_dim'] = 5
 tests = []
 
