@@ -1,4 +1,4 @@
-install.packages('gam')
+ install.packages('gam')
 library('gam')
 require('gam')
 getwd()
