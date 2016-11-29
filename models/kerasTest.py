@@ -35,14 +35,12 @@ def _load_data():
     X = np.array(X).T
     print X[1][0]
     X[1] = np.log(X[1]+1)
-    # X[2] = np.log(np.sqrt(100 - X[2] + 1) + .01)
+    X[2] = np.log(np.sqrt(100 - X[2] + 1) + .01)
+    X[3] = np.log(np.sqrt(10-X[3]+.01)+.01)
+    X[5] = np.log(np.sqrt(10-X[5]+.01)+.01)
+    X[4] = np.log(np.sqrt(100 - X[4] + 1) + .01)
 
-    # X[3] = np.log(np.sqrt(10-X[3]+.01)+.01)
-    # X[5] = np.log(np.sqrt(10-X[5]+.01)+.01)
-
-    # X[4] = np.log(np.sqrt(100 - X[4] + 1) + .01)
-
-    X = np.array([((row - row.min()) / (row.max() - row.min())) * 2 -1 for row in X])
+    X = np.array([((row - row.min()) / (row.max() - row.min())) * 6 -3 for row in X])
     train_set_x = X.T.tolist()
     train_set_y = df[[2]].values.tolist()
     # train_set_y = [[1-y[0],y[0]] for y in train_set_y]
@@ -109,7 +107,7 @@ def run_model(data, hyperParams):
     l2_neurons = hyperParams["l2_neurons"]
     model = Sequential()
     ## for single movie pred version
-    model.add(Dense((1000), input_dim=(input_dim), init='normal', bias=True))
+    model.add(Dense((1000), input_dim=(input_dim), init='uniform', bias=True))
     model.add(Dropout(.2))
     model.add(Activation('relu'))
     model.add(Dense((1000), init='uniform'))
