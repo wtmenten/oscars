@@ -29,9 +29,21 @@ base_hyperparams = dict(
 
 def _load_data():
     df = pd.read_csv("AA_4_computed.csv")
-    # print df.columns
+    print df.columns
     ## for single row version of model
-    train_set_x = df[[5, 6, 8, 10, 17]].fillna(0).values.tolist()
+    X = df[[5, 6, 8, 10, 17]].fillna(0).values.tolist()
+    X = np.array(X).T
+    print X[1][0]
+    X[1] = np.log(X[1]+1)
+    # X[2] = np.log(np.sqrt(100 - X[2] + 1) + .01)
+
+    # X[3] = np.log(np.sqrt(10-X[3]+.01)+.01)
+    # X[5] = np.log(np.sqrt(10-X[5]+.01)+.01)
+
+    # X[4] = np.log(np.sqrt(100 - X[4] + 1) + .01)
+
+    X = np.array([(row - row.min()) / (row.max() - row.min()) for row in X])
+    train_set_x = X.T.tolist()
     train_set_y = df[[2]].values.tolist()
     return (train_set_x, train_set_y)
 
@@ -95,12 +107,15 @@ def run_model(data, hyperParams):
     l2_neurons = hyperParams["l2_neurons"]
     model = Sequential()
     ## for single movie pred version
-    model.add(Dense((300), input_dim=(input_dim)))
+    model.add(Dense((100), input_dim=(input_dim)))
     model.add(Dropout(.3))
-    model.add(Activation('sigmoid'))
+    model.add(Activation('relu'))
+    model.add(Dense((100)))
+    model.add(Dropout(.1))
+    model.add(Activation('relu'))
     model.add(Dense((out_neurons)))
     model.add(Activation('hard_sigmoid'))
-    model.compile(loss="binary_crossentropy", optimizer="Adagrad")
+    model.compile(loss="binary_crossentropy", optimizer="Adam")
 
     # # for seasonal version
     # model.add(Convolution1D(1, 0, input_shape=(12, 5)))
@@ -128,10 +143,9 @@ def run_model(data, hyperParams):
     # and now train the model
     # batch_size should be appropriate to your memory size
     # number of epochs should be higher for real world problems
-    model.fit(X_train, y_train, batch_size=450, nb_epoch=50, validation_split=0.05)
+    model.fit(X_train, y_train, batch_size=450, nb_epoch=150, validation_split=0.05)
 
     predicted = model.predict(X_test)
-
     return model, (predicted, y_test)
 
 
