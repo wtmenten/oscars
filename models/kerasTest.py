@@ -31,7 +31,7 @@ def _load_data():
     df = pd.read_csv("AA_4_computed.csv")
     print df.columns
     ## for single row version of model
-    X = df[[5, 6, 8, 10, 17]].fillna(0).values.tolist()
+    X = df[[5, 6, 7, 8, 9, 10, 17]].fillna(0).values.tolist()
     X = np.array(X).T
     print X[1][0]
     X[1] = np.log(X[1]+1)
@@ -42,9 +42,10 @@ def _load_data():
 
     # X[4] = np.log(np.sqrt(100 - X[4] + 1) + .01)
 
-    X = np.array([(row - row.min()) / (row.max() - row.min()) for row in X])
+    X = np.array([((row - row.min()) / (row.max() - row.min())) * 2 -1 for row in X])
     train_set_x = X.T.tolist()
     train_set_y = df[[2]].values.tolist()
+    # train_set_y = [[1-y[0],y[0]] for y in train_set_y]
     return (train_set_x, train_set_y)
 
     ## for covolutional seasonal version
@@ -86,8 +87,9 @@ def train_test_split(df, test_size=0.1):
     assert len(df[0]) == len(df[1])
 
     ntrn = int(round(len(df[0]) * (1 - test_size)))
-    X_train, y_train = (df[0][0:ntrn], df[1][0:ntrn])
-    X_test, y_test = (df[0][ntrn:], df[1][ntrn:])
+    ntest = len(df[0]) - ntrn
+    X_train, y_train = (df[0][ntest:], df[1][ntest:])
+    X_test, y_test = (df[0][0:ntest], df[1][0:ntest])
     return (X_train, y_train), (X_test, y_test)
 
 def save_obj(obj, name ):
@@ -107,15 +109,30 @@ def run_model(data, hyperParams):
     l2_neurons = hyperParams["l2_neurons"]
     model = Sequential()
     ## for single movie pred version
-    model.add(Dense((100), input_dim=(input_dim)))
-    model.add(Dropout(.3))
+    model.add(Dense((1000), input_dim=(input_dim), init='normal', bias=True))
+    model.add(Dropout(.2))
     model.add(Activation('relu'))
-    model.add(Dense((100)))
-    model.add(Dropout(.1))
+    model.add(Dense((1000), init='uniform'))
+    model.add(Dropout(.2))
     model.add(Activation('relu'))
+    # model.add(Dense((8)))
+    # model.add(Dropout(.3))
+    # model.add(Activation('relu'))
+    # model.add(Dense((8)))
+    # model.add(Dropout(.3))
+    # model.add(Activation('relu'))
+    # model.add(Dense((8)))
+    # model.add(Dropout(.3))
+    # model.add(Activation('relu'))
+    model.add(Dense((300), init='uniform'))
+    model.add(Dropout(.2))
+    model.add(Activation('tanh'))
+    # model.add(Dense((300)))
+    # model.add(Dropout(.2))
+    # model.add(Activation('sigmoid'))
     model.add(Dense((out_neurons)))
     model.add(Activation('hard_sigmoid'))
-    model.compile(loss="binary_crossentropy", optimizer="Adam")
+    model.compile(loss="binary_crossentropy", optimizer="adam", metrics=['accuracy'])
 
     # # for seasonal version
     # model.add(Convolution1D(1, 0, input_shape=(12, 5)))
@@ -143,7 +160,7 @@ def run_model(data, hyperParams):
     # and now train the model
     # batch_size should be appropriate to your memory size
     # number of epochs should be higher for real world problems
-    model.fit(X_train, y_train, batch_size=450, nb_epoch=150, validation_split=0.05)
+    model.fit(X_train, y_train, batch_size=450, nb_epoch=50, validation_split=0.00,  class_weight={0:.1,1:.12})
 
     predicted = model.predict(X_test)
     return model, (predicted, y_test)
@@ -153,8 +170,9 @@ data = _load_data()
 optimalHyperParams = {'l1_drop': 0.5, 'l1_neurons': 200, 'time_series_len': 100, 'l2_neurons': 250}
 currentHyperParams = optimalHyperParams
 currentHyperParams['out_neurons'] = 1
+# currentHyperParams['out_neurons'] = 2
 # currentHyperParams['out_neurons'] = 12
-currentHyperParams['input_dim'] = 5
+currentHyperParams['input_dim'] = 7
 tests = []
 
 for i in range(10):
@@ -167,6 +185,9 @@ for i in range(10):
     # plt.hist([x[0] for x in tests])
     # plt.savefig('tests/graphs/error_dist_%s.png' % i)
     plt.figure()
+    # plt.scatter(range(len(predicted)), np.array(predicted).T[1],c="r")
+    # plt.scatter(range(len(y_test)), np.array(y_test).T[1],c="g")
+
     plt.scatter(range(len(predicted)), predicted,c="r")
     plt.scatter(range(len(y_test)), y_test,c="g")
     plt.savefig('tests/graphs/pred_%s.png' % i)

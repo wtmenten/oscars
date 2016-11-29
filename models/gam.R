@@ -1,18 +1,20 @@
- install.packages('gam')
+install.packages('gam')
 library('gam')
 require('gam')
 getwd()
 # use csv file in root dir of github
-oscars <- read.table(file.choose(), header=T, sep=",") #choose links
+oscars <- read.table(file.choose(), header=T, sep=",") #choose AA_4_computed
 summary(oscars)
-str(oscars)
+str(oscars[0])
 
 # convert T/F vals to binary
 oscars[3] = sapply(oscars[3], as.numeric) -1
 # convert string nums to num
 oscars[, c(8:11)] <- sapply(sapply(oscars[, c(8:11)], as.character), as.numeric)
-
+oscars[, c(6:11)] <- scale(oscars[, c(6:11)])
+oscars[, c(18)] <- scale(oscars[, c(18)])
 # split the data
+oscars
 splitindex = floor(nrow(oscars) * .1)
 test = oscars[1:splitindex,]
 train = oscars [splitindex:nrow(oscars),]
