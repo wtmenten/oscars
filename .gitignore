@@ -24,6 +24,9 @@ lib64/
 parts/
 sdist/
 var/
+tests/graphs/
+tests/models/
+tests/pickels/
 *.egg-info/
 .installed.cfg
 *.egg

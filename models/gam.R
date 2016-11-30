@@ -1,5 +1,7 @@
 install.packages('gam')
+install.packages('gamlss')
 library('gam')
+library('gamlss')
 require('gam')
 getwd()
 # use csv file in root dir of github
