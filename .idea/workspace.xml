@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="902e562a-7f43-4f29-853b-c03b10129e25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/keras_adapted.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/keras_example_2.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_0.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_1.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_2.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_3.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_4.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_5.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_6.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_7.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_8.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/pred_9.png" afterPath="$PROJECT_DIR$/tests/graphs/pred_9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_0.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_1.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_2.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_3.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_4.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_5.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_6.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_7.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_8.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/graphs/residuals_9.png" afterPath="$PROJECT_DIR$/tests/graphs/residuals_9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/pickels/tuned_testing.pkl" afterPath="$PROJECT_DIR$/tests/pickels/tuned_testing.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/gam.R" afterPath="$PROJECT_DIR$/models/gam.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/kerasTest.py" afterPath="$PROJECT_DIR$/models/kerasTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/keras_example.ipynb" afterPath="$PROJECT_DIR$/models/keras_example.ipynb" />
-    </list>
+    <list default="true" id="902e562a-7f43-4f29-853b-c03b10129e25" name="Default" comment="" />
     <ignored path="oscars.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
