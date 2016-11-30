@@ -40,7 +40,7 @@ def _load_data():
     X[5] = np.log(np.sqrt(10-X[5]+.01)+.01)
     X[4] = np.log(np.sqrt(100 - X[4] + 1) + .01)
 
-    X = np.array([((row - row.min()) / (row.max() - row.min())) * 6 -3 for row in X])
+    X = np.array([((row - row.min()) / (row.max() - row.min())) * 8 -4 for row in X])
     train_set_x = X.T.tolist()
     train_set_y = df[[2]].values.tolist()
     # train_set_y = [[1-y[0],y[0]] for y in train_set_y]
