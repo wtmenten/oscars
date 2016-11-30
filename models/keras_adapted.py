@@ -67,8 +67,9 @@ def create_larger():
     model.add(Dropout(.05))
     # model.add(SReLU())
     model.add(Dense(len(X[0, :]) / 2, init='normal', activation='relu'))
+    model.add(Dense(len(X[0, :]) / 4, init='normal', activation='tanh'))
     model.add(Dense(1, init='normal', activation='sigmoid'))
-    model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy', 'precision', 'recall', 'fmeasure'])
+    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy', 'precision', 'recall', 'fmeasure'])
     return model
 
 #
@@ -145,6 +146,7 @@ def make_plots(test, preds, acc, loss, trial):
 
 np.random.seed(seed)
 kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
+# kfold = StratifiedKFold(n_splits=10, shuffle=True)
 trial = 1
 accs = []
 precs = []
