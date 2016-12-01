@@ -132,15 +132,16 @@ def create_grouped():
     season_len = len(X[0,:])
     model = Sequential()
     # model.add(Flatten(input_shape=(season_len,feature_len)))
-    model.add(Convolution1D(season_len*2, 1,input_shape=(season_len,feature_len), input_length=feature_len))
+    model.add(Convolution1D(1, 1,input_shape=(season_len,feature_len), input_length=feature_len))
+
     model.add(Flatten())
 
-    model.add(Dense(feature_len*.75, init='normal',))
+    model.add(Dense(int(feature_len *.75 * 100), init='normal',))
     model.add(Activation('relu'))
     model.add(Dropout(.05))
     # model.add(SReLU())
-    model.add(Dense(feature_len / 2, init='normal', activation='relu'))
-    model.add(Dense(feature_len / 4, init='normal', activation='tanh'))
+    model.add(Dense(int(feature_len / 2 * 100), init='normal', activation='relu'))
+    model.add(Dense(int(feature_len / 4 * 100), init='normal', activation='tanh'))
     # model.add(Dense(1, init='normal', activation='sigmoid'))
     model.add(Dense(12, init='normal', activation='sigmoid'))
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy', 'precision', 'recall', 'fmeasure'])
@@ -208,9 +209,9 @@ def test_fold(train, test, trial, lasttest=None):
     return test
 
 def test_group(train, vaild, trial, lasttest=None):
-    X_scaler = StandardScaler()
-    X_train = np.array([X_scaler.fit_transform(x) for x in train[0]])
-    X_valid = np.array([X_scaler.transform(x) for x in vaild[0]])
+    # X_scaler = StandardScaler()
+    X_train = np.array([x for x in train[0]])
+    X_valid = np.array([x for x in vaild[0]])
     hist = model.fit(X_train, train[1], nb_epoch=1000, batch_size=10, verbose=0)
     # if lasttest is not None:
         # X_train = X_scaler.fit_transform(X[lasttest])
@@ -244,6 +245,11 @@ precs = []
 recs = []
 fscores = []
 model = create_grouped()
+print model.layers[0].output_shape
+print model.layers[1].output_shape
+print model.layers[2].output_shape
+X_scaler = StandardScaler()
+X = np.array([X_scaler.fit_transform(x) for x in X])
 folds = list(kfold.split(X, Y))
 # print Y[folds[0][1]]
 # print Y[folds[1][1]]
