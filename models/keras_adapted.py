@@ -250,8 +250,9 @@ X_scaler = StandardScaler()
 X = np.array([X_scaler.fit_transform(x) for x in X])
 X,Y = shuffle_in_unison(X,Y)
 X = X.astype(float)
-x_train, x_test = [X[10:],X[:10]]
-y_train, y_test = [Y[10:],Y[:10]]
+split_point = int(len(X)*.7)
+x_train, x_test = [X[:split_point],X[split_point:]]
+y_train, y_test = [Y[:split_point],Y[split_point:]]
 # kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
 kfold = KFold(n_splits=10, shuffle=True, random_state=seed)
 trial = 1
