@@ -27,7 +27,7 @@ seed = 7
 
 
 def shuffle_in_unison(a, b):
-    np.random.seed()
+    # np.random.seed()
     rng_state = np.random.get_state()
     np.random.shuffle(a)
     np.random.set_state(rng_state)
@@ -136,14 +136,15 @@ def create_grouped():
 
     model.add(Flatten())
 
-    model.add(Dense(int(feature_len *.75 * 100), init='normal',))
+    model.add(Dense(int(feature_len *.75 * 50), init='normal',))
     model.add(Activation('relu'))
     model.add(Dropout(.05))
     # model.add(SReLU())
-    model.add(Dense(int(feature_len / 2 * 100), init='normal', activation='relu'))
-    model.add(Dense(int(feature_len / 4 * 100), init='normal', activation='tanh'))
+    model.add(Dense(int(feature_len / 2 * 50), init='normal', activation='relu'))
+    model.add(Dense(int(feature_len / 4 * 50), init='normal', activation='tanh'))
     # model.add(Dense(1, init='normal', activation='sigmoid'))
     model.add(Dense(12, init='normal', activation='sigmoid'))
+    model.add(Dense(12, init='normal', activation='softmax'))
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy', 'precision', 'recall', 'fmeasure'])
     return model
 
@@ -208,14 +209,10 @@ def test_fold(train, test, trial, lasttest=None):
     make_plots(test, preds, hist.history['acc'], hist.history['loss'], trial)
     return test
 
-def test_group(train, vaild, trial, lasttest=None):
-    # X_scaler = StandardScaler()
+def train_group(train, vaild, trial):
     X_train = np.array([x for x in train[0]])
     X_valid = np.array([x for x in vaild[0]])
     hist = model.fit(X_train, train[1], nb_epoch=1000, batch_size=10, verbose=0)
-    # if lasttest is not None:
-        # X_train = X_scaler.fit_transform(X[lasttest])
-        # hist = model.fit(X_train, Y[lasttest], nb_epoch=750, batch_size=50, verbose=0)
     preds = model.predict_classes(X_valid, batch_size=10, verbose=0)
     # preds = model.predict(X_test, batch_size=50, verbose=0)
     scores = model.evaluate(X_valid, vaild[1], verbose=0)
@@ -228,15 +225,33 @@ def test_group(train, vaild, trial, lasttest=None):
     #     print(hist.history.keys())
     #     print(preds)
     make_plots(vaild[1], preds, hist.history['acc'], hist.history['loss'], trial)
-    return vaild
 
-X,Y = _group_data()
+def test_group(test):
+    preds = model.predict_classes(test[0], batch_size=10, verbose=0)
+    # preds = model.predict(X_test, batch_size=50, verbose=0)
+    scores = model.evaluate(test[0], test[1], verbose=0)
+    accs.append(scores[1] * 100)
+    precs.append(scores[2] * 100)
+    recs.append(scores[3] * 100)
+    fscores.append(scores[4] * 100)
+    print("_-_-_-_-TEST-_-_-_-_-_")
+    print(scores, model.metrics_names)
+    print(preds)
+    print(test[1])
+    #     print(hist.history.keys())
+    #     print(preds)
+    # make_plots(vaild[1], preds, hist.history['acc'], hist.history['loss'], 0)
 # print X[0]
 # print Y[0]
 # assert 1 ==0
-X = X.astype(float)
-
 np.random.seed(seed)
+X,Y = _group_data()
+X_scaler = StandardScaler()
+X = np.array([X_scaler.fit_transform(x) for x in X])
+X,Y = shuffle_in_unison(X,Y)
+X = X.astype(float)
+x_train, x_test = [X[10:],X[:10]]
+y_train, y_test = [Y[10:],Y[:10]]
 # kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
 kfold = KFold(n_splits=10, shuffle=True, random_state=seed)
 trial = 1
@@ -248,9 +263,7 @@ model = create_grouped()
 print model.layers[0].output_shape
 print model.layers[1].output_shape
 print model.layers[2].output_shape
-X_scaler = StandardScaler()
-X = np.array([X_scaler.fit_transform(x) for x in X])
-folds = list(kfold.split(X, Y))
+folds = list(kfold.split(x_train, y_train))
 # print Y[folds[0][1]]
 # print Y[folds[1][1]]
 # assert 1 ==0
@@ -261,10 +274,10 @@ folds = list(kfold.split(X, Y))
 # trial += 1
 lasttest = None
 for train, vaild in folds:
-    lasttest = test_group((X[train],Y[train]),(X[vaild],Y[vaild]),trial,lasttest=lasttest)
-
+    lasttest = train_group((X[train],Y[train]),(X[vaild],Y[vaild]),trial)
     # lasttest = test_fold(train, test,trial, lasttest=lasttest)
     trial += 1
+test_group((x_test,y_test))
 
 for i, scs in enumerate(zip(accs, precs, recs, fscores)):
     print('Stat report for round %s: Acc. %.2f%% | Prec. %.2f%% | Rec. %.2f%% | Fscore %.2f%%' % (i + 1, scs[0], scs[1], scs[2], scs[3]))
