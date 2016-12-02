@@ -4,7 +4,7 @@ import pandas as pd
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation, Dropout, Masking,Highway,Flatten,Reshape
 from keras.layers.convolutional import Convolution1D
-
+from keras.layers.noise import GaussianNoise
 from keras.layers.advanced_activations import PReLU, LeakyReLU, ELU, SReLU
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import cross_val_score
@@ -28,6 +28,8 @@ seed = 7
 
 def shuffle_in_unison(a, b):
     # np.random.seed()
+    np.random.seed(seed)
+
     rng_state = np.random.get_state()
     np.random.shuffle(a)
     np.random.set_state(rng_state)
@@ -35,7 +37,7 @@ def shuffle_in_unison(a, b):
     return a, b
 
 def _no_group_data():
-    df = pd.read_csv('AA_4_computed.csv', header=None).fillna(0)
+    df = pd.read_csv('AA_4_computed_new.csv', header=None).fillna(0)
     ds = df.values
     titles = ds[0,:]
     ds = ds[1:, :]
@@ -54,7 +56,9 @@ def _no_group_data():
     return X, Y
 
 def _group_data():
-    df = pd.read_csv('AA_4_computed.csv', header=None).fillna(0)
+    np.random.seed(seed)
+
+    df = pd.read_csv('AA_4_computed_new.csv', header=None).fillna(0)
     ds = df.values
     titles = ds[0, :]
     ds = ds[1:, :]
@@ -128,20 +132,26 @@ def create_larger():
     return model
 
 def create_grouped():
+    np.random.seed(seed)
+
     feature_len = len(X[0, 0,:])
     season_len = len(X[0,:])
     model = Sequential()
+    node_stretch = 8
+    model.add(GaussianNoise(.20,input_shape=(season_len,feature_len)))
     # model.add(Flatten(input_shape=(season_len,feature_len)))
-    model.add(Convolution1D(1, 1,input_shape=(season_len,feature_len), input_length=feature_len))
+    model.add(Convolution1D(1, 1,input_shape=(season_len,feature_len), input_length=feature_len,bias=True))
 
     model.add(Flatten())
 
-    model.add(Dense(int(feature_len *.75 * 50), init='normal',))
+    model.add(Dense(int(feature_len *.5 * node_stretch), init='normal',))
     model.add(Activation('relu'))
-    model.add(Dropout(.05))
+    model.add(Dropout(.25))
     # model.add(SReLU())
-    model.add(Dense(int(feature_len / 2 * 50), init='normal', activation='relu'))
-    model.add(Dense(int(feature_len / 4 * 50), init='normal', activation='tanh'))
+    model.add(Dense(int(feature_len *.5 * node_stretch), init='normal', activation='relu'))
+    model.add(Dropout(.25))
+    model.add(Dense(int(feature_len *.20 * node_stretch), init='normal', activation='tanh'))
+    model.add(Dropout(.2))
     # model.add(Dense(1, init='normal', activation='sigmoid'))
     model.add(Dense(12, init='normal', activation='sigmoid'))
     model.add(Dense(12, init='normal', activation='softmax'))
@@ -210,9 +220,11 @@ def test_fold(train, test, trial, lasttest=None):
     return test
 
 def train_group(train, vaild, trial):
+    np.random.seed(seed)
+
     X_train = np.array([x for x in train[0]])
     X_valid = np.array([x for x in vaild[0]])
-    hist = model.fit(X_train, train[1], nb_epoch=1000, batch_size=10, verbose=0)
+    hist = model.fit(X_train, train[1], nb_epoch=500, batch_size=10, verbose=0)
     preds = model.predict_classes(X_valid, batch_size=10, verbose=0)
     # preds = model.predict(X_test, batch_size=50, verbose=0)
     scores = model.evaluate(X_valid, vaild[1], verbose=0)
@@ -227,6 +239,8 @@ def train_group(train, vaild, trial):
     make_plots(vaild[1], preds, hist.history['acc'], hist.history['loss'], trial)
 
 def test_group(test):
+    np.random.seed(seed)
+
     preds = model.predict_classes(test[0], batch_size=10, verbose=0)
     # preds = model.predict(X_test, batch_size=50, verbose=0)
     scores = model.evaluate(test[0], test[1], verbose=0)
@@ -250,11 +264,11 @@ X_scaler = StandardScaler()
 X = np.array([X_scaler.fit_transform(x) for x in X])
 X,Y = shuffle_in_unison(X,Y)
 X = X.astype(float)
-split_point = int(len(X)*.7)
+split_point = int(len(X)*.8)
 x_train, x_test = [X[:split_point],X[split_point:]]
 y_train, y_test = [Y[:split_point],Y[split_point:]]
 # kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
-kfold = KFold(n_splits=10, shuffle=True, random_state=seed)
+kfold = KFold(n_splits=10, shuffle=True)
 trial = 1
 accs = []
 precs = []
@@ -275,7 +289,7 @@ folds = list(kfold.split(x_train, y_train))
 # trial += 1
 lasttest = None
 for train, vaild in folds:
-    lasttest = train_group((X[train],Y[train]),(X[vaild],Y[vaild]),trial)
+    lasttest = train_group((x_train[train],y_train[train]),(x_train[vaild],y_train[vaild]),trial)
     # lasttest = test_fold(train, test,trial, lasttest=lasttest)
     trial += 1
 test_group((x_test,y_test))

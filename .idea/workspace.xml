@@ -23,21 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="keras_adapted.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/keras_adapted.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="252" column="28" selection-start-line="252" selection-start-column="28" selection-end-line="252" selection-end-column="28" />
-              <folding>
-                <element signature="e#22#40#0" expanded="true" />
-                <element signature="e#6887#7752#0" expanded="false" />
-              </folding>
-            </state>
+      <file leaf-file-name="acc_11.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/graphs/acc_11.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc_12.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/graphs/acc_12.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="acc_1.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/graphs/acc_1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc_2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/graphs/acc_2.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -50,50 +58,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loss_1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/graphs/loss_1.png">
+      <file leaf-file-name="acc_4.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/graphs/acc_4.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loss_2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/graphs/loss_2.png">
+      <file leaf-file-name="acc_5.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/graphs/acc_5.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loss_3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/graphs/loss_3.png">
+      <file leaf-file-name="keras_adapted.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/keras_adapted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
+              <folding>
+                <element signature="e#22#40#0" expanded="true" />
+                <element signature="e#7204#8069#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc_9.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/graphs/acc_9.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loss_4.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/graphs/loss_4.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loss_5.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/graphs/loss_5.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loss_6.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/graphs/loss_6.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loss_7.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/graphs/loss_7.png">
+      <file leaf-file-name="acc_10.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/graphs/acc_10.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -511,30 +511,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/graphs/residuals_5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/gam.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/residuals_8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Prelim Analysis.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -594,27 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/graphs/acc_6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/loss_9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_9.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -642,27 +598,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_10.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/loss_10.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/graphs/pred_10.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_5.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -732,21 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/graphs/loss_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -777,18 +698,93 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/loss_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/graphs/loss_7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/loss_9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/loss_10.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/loss_11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_10.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/graphs/acc_5.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/keras_adapted.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="252" column="28" selection-start-line="252" selection-start-column="28" selection-end-line="252" selection-end-column="28" />
+        <state relative-caret-position="476">
+          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
-            <element signature="e#6887#7752#0" expanded="false" />
+            <element signature="e#7204#8069#0" expanded="false" />
           </folding>
         </state>
       </provider>
