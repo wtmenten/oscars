@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 from keras.models import Sequential
-from keras.layers.core import Dense, Activation, Dropout, Masking,Highway,Flatten,Reshape
+from keras.layers.core import Dense, Activation, Dropout, Masking,Highway,Flatten,Reshape,Merge
 from keras.layers.convolutional import Convolution1D
 from keras.layers.noise import GaussianNoise
 from keras.layers.advanced_activations import PReLU, LeakyReLU, ELU, SReLU
@@ -28,7 +28,7 @@ seed = 7
 
 def shuffle_in_unison(a, b):
     # np.random.seed()
-    np.random.seed(seed)
+    # np.random.seed(seed)
 
     rng_state = np.random.get_state()
     np.random.shuffle(a)
@@ -56,7 +56,7 @@ def _no_group_data():
     return X, Y
 
 def _group_data():
-    np.random.seed(seed)
+    # np.random.seed(seed)
 
     df = pd.read_csv('AA_4_computed_new.csv', header=None).fillna(0)
     ds = df.values
@@ -158,6 +158,43 @@ def create_grouped():
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy', 'precision', 'recall', 'fmeasure'])
     return model
 
+def create_mergegrouped():
+    # np.random.seed(seed)
+
+    feature_len = len(X[0, 0, :])
+    season_len = len(X[0, :])
+    node_stretch = 8
+
+    l1_size = int(feature_len * 1 * node_stretch)
+    l2_size = int(feature_len * 1 * node_stretch)
+    noise_std = .1
+    left_model = Sequential()
+    right_model = Sequential()
+    left_model.add(GaussianNoise(noise_std, input_shape=(season_len, feature_len)))
+    right_model.add(GaussianNoise(noise_std, input_shape=(season_len, feature_len)))
+    left_model.add(Convolution1D(1, 1, input_shape=(season_len, feature_len), input_length=feature_len))
+    right_model.add(Convolution1D(1, 1, input_shape=(season_len, feature_len), input_length=feature_len))
+    left_model.add(Flatten())
+    right_model.add(Flatten())
+
+    left_model.add(Dense(l1_size, init='normal', activation='sigmoid'))
+    left_model.add(Dropout(.15))
+
+    right_model.add(Dense(l1_size, init='normal', activation='tanh'))
+    right_model.add(Dropout(.15))
+
+    final_model = Sequential()
+    merged = Merge([left_model,right_model], mode='ave')
+    final_model.add(merged)
+    final_model.add(Dense(l2_size, init='normal'))
+    final_model.add(Activation('sigmoid'))
+    # final_model.add(PReLU())
+    # final_model.add(LeakyReLU())
+    final_model.add(Dropout(.1))
+    final_model.add(Dense(12, init='normal', activation='softmax',bias=True))
+    final_model.compile(loss='categorical_crossentropy', optimizer='adagrad',
+                  metrics=['accuracy', 'precision', 'recall', 'fmeasure'])
+    return final_model
 
 def make_plots(test, preds, acc, loss, trial):
     # lets see our predictions!
@@ -197,6 +234,13 @@ def make_plots(test, preds, acc, loss, trial):
     plt.savefig('tests/graphs/loss_%s.png' % trial)
     plt.close(fig)
 
+def _score(scores, model, include=True):
+    accs.append(scores[1] * 100)
+    precs.append(scores[2] * 100)
+    recs.append(scores[3] * 100)
+    fscores.append(scores[4] * 100)
+    print("_-_-_-_-_-_-_-_-_-_-_-_-_-_")
+    print(scores, model.metrics_names)
 
 def test_fold(train, test, trial, lasttest=None):
     X_scaler = StandardScaler()
@@ -228,14 +272,19 @@ def train_group(train, vaild, trial):
     preds = model.predict_classes(X_valid, batch_size=10, verbose=0)
     # preds = model.predict(X_test, batch_size=50, verbose=0)
     scores = model.evaluate(X_valid, vaild[1], verbose=0)
-    accs.append(scores[1] * 100)
-    precs.append(scores[2] * 100)
-    recs.append(scores[3] * 100)
-    fscores.append(scores[4] * 100)
-    print("_-_-_-_-_-_-_-_-_-_-_-_-_-_")
-    print(scores, model.metrics_names)
-    #     print(hist.history.keys())
-    #     print(preds)
+    _score(scores,model)
+    make_plots(vaild[1], preds, hist.history['acc'], hist.history['loss'], trial)
+
+def train_mergegroup(train, vaild, trial):
+    # np.random.seed(seed)
+
+    X_train = np.array([x for x in train[0]])
+    X_valid = np.array([x for x in vaild[0]])
+    hist = model.fit([X_train,X_train], train[1], nb_epoch=200, batch_size=10, verbose=0)
+    preds = model.predict_classes([X_valid,X_valid], batch_size=10, verbose=0)
+    # preds = model.predict(X_test, batch_size=50, verbose=0)
+    scores = model.evaluate([X_valid,X_valid], vaild[1], verbose=0)
+    _score(scores,model)
     make_plots(vaild[1], preds, hist.history['acc'], hist.history['loss'], trial)
 
 def test_group(test):
@@ -244,21 +293,25 @@ def test_group(test):
     preds = model.predict_classes(test[0], batch_size=10, verbose=0)
     # preds = model.predict(X_test, batch_size=50, verbose=0)
     scores = model.evaluate(test[0], test[1], verbose=0)
-    accs.append(scores[1] * 100)
-    precs.append(scores[2] * 100)
-    recs.append(scores[3] * 100)
-    fscores.append(scores[4] * 100)
-    print("_-_-_-_-TEST-_-_-_-_-_")
-    print(scores, model.metrics_names)
+    _score(scores,model, include=False)
     print(preds)
     print(test[1])
-    #     print(hist.history.keys())
-    #     print(preds)
+    # make_plots(vaild[1], preds, hist.history['acc'], hist.history['loss'], 0)
+
+def test_mergegroup(test):
+    # np.random.seed(seed)
+
+    preds = model.predict_classes([test[0],test[0]], batch_size=10, verbose=0)
+    # preds = model.predict(X_test, batch_size=50, verbose=0)
+    scores = model.evaluate([test[0],test[0]], test[1], verbose=0)
+    _score(scores, model, include=False)
+    # print(preds)
+    # print(test[1])
     # make_plots(vaild[1], preds, hist.history['acc'], hist.history['loss'], 0)
 # print X[0]
 # print Y[0]
 # assert 1 ==0
-np.random.seed(seed)
+# np.random.seed(seed)
 X,Y = _group_data()
 X_scaler = StandardScaler()
 X = np.array([X_scaler.fit_transform(x) for x in X])
@@ -268,16 +321,16 @@ split_point = int(len(X)*.8)
 x_train, x_test = [X[:split_point],X[split_point:]]
 y_train, y_test = [Y[:split_point],Y[split_point:]]
 # kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
-kfold = KFold(n_splits=10, shuffle=True)
+kfold = KFold(n_splits=2, shuffle=True)
 trial = 1
 accs = []
 precs = []
 recs = []
 fscores = []
-model = create_grouped()
+model = create_mergegrouped()
 print model.layers[0].output_shape
 print model.layers[1].output_shape
-print model.layers[2].output_shape
+# print model.layers[2].output_shape
 folds = list(kfold.split(x_train, y_train))
 # print Y[folds[0][1]]
 # print Y[folds[1][1]]
@@ -289,10 +342,11 @@ folds = list(kfold.split(x_train, y_train))
 # trial += 1
 lasttest = None
 for train, vaild in folds:
-    lasttest = train_group((x_train[train],y_train[train]),(x_train[vaild],y_train[vaild]),trial)
+    train_mergegroup((x_train[train],y_train[train]),(x_train[vaild],y_train[vaild]),trial)
+    # train_group((x_train[train],y_train[train]),(x_train[vaild],y_train[vaild]),trial)
     # lasttest = test_fold(train, test,trial, lasttest=lasttest)
     trial += 1
-test_group((x_test,y_test))
+test_mergegroup((x_test,y_test))
 
 for i, scs in enumerate(zip(accs, precs, recs, fscores)):
     print('Stat report for round %s: Acc. %.2f%% | Prec. %.2f%% | Rec. %.2f%% | Fscore %.2f%%' % (i + 1, scs[0], scs[1], scs[2], scs[3]))
