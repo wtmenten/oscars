@@ -30,7 +30,12 @@ reportgam <- function(gamobj) {
   plot(wpreds, col='green')
   points(lpreds, col='red')
   print(summary(gamobj))
+  print(gamobj$coefficients)
 }
+
+# matching the human study first
+gamobj<-gam(Winner ~ + log(IMDB.Votes+1) + IMDB.Rating +  Average.Critic.Score + Average.Audience.Score  + Normalized.Gross + Normalized.Budget + Return.on.Investment,family=binomial,data=train)
+reportgam(gamobj)
 
  # minimum first
 gamobj<-gam(Winner ~ Producer + log(IMDB.Votes+1) + IMDB.Rating,family=binomial,data=train)
