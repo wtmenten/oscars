@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902e562a-7f43-4f29-853b-c03b10129e25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.~lock.AA_4_computed_new.csv#" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/Analysis.ipynb" afterPath="$PROJECT_DIR$/analysis/Analysis.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/keras_adapted.py" afterPath="$PROJECT_DIR$/models/keras_adapted.py" />
     </list>
     <ignored path="oscars.iws" />
@@ -76,15 +77,12 @@
       <file leaf-file-name="keras_adapted.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/keras_adapted.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="282" column="61" selection-start-line="282" selection-start-column="61" selection-end-line="282" selection-end-column="61" />
+            <state relative-caret-position="308">
+              <caret line="282" column="24" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
               <folding>
                 <element signature="e#22#40#0" expanded="true" />
-                <element signature="e#7416#8694#0" expanded="false" />
-                <element signature="e#8741#8952#0" expanded="false" />
-                <element signature="e#9008#9873#0" expanded="false" />
-                <element signature="e#9917#10406#0" expanded="false" />
-                <element signature="e#11004#11369#0" expanded="false" />
+                <element signature="e#5055#6189#0" expanded="false" />
+                <element signature="e#7842#9120#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -512,7 +510,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -780,15 +778,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/keras_adapted.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="282" column="61" selection-start-line="282" selection-start-column="61" selection-end-line="282" selection-end-column="61" />
+        <state relative-caret-position="308">
+          <caret line="282" column="24" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
-            <element signature="e#7416#8694#0" expanded="false" />
-            <element signature="e#8741#8952#0" expanded="false" />
-            <element signature="e#9008#9873#0" expanded="false" />
-            <element signature="e#9917#10406#0" expanded="false" />
-            <element signature="e#11004#11369#0" expanded="false" />
+            <element signature="e#5055#6189#0" expanded="false" />
+            <element signature="e#7842#9120#0" expanded="false" />
           </folding>
         </state>
       </provider>
