@@ -27,17 +27,18 @@ train = oscars [splitindex:nrow(oscars),]
 tl = subset(test, Winner == 0)
 tw = subset(test, Winner == 1)
 
+# function for testing and plotting the results of a gam model
 reportgam <- function(gamobj) {
   # from when we used producer factor. This ensured that all producers are included as possible levels
   # gamobj$xlevels[["Producer"]] <- levels(oscars$Producer)
   wpreds = predict.gam(gamobj,tw) # predictions for winners set
   lpreds = predict.gam(gamobj,tl) # predictions for losers set
-  plot(wpreds, col='green')
-  points(lpreds, col='red')
+  plot(wpreds, pch=19, col='green')
+  points(lpreds, pch=19, col='red')
   print(summary(gamobj))
   print(gamobj$coefficients)
 }
 
-# matching the human study first
+# using features matching the human study
 gamobj<-gam(Winner ~ + log(IMDB.Votes+1) + IMDB.Rating +  Average.Critic.Score + Average.Audience.Score  + Normalized.Gross + Normalized.Budget + Return.on.Investment,family=binomial,data=train)
 reportgam(gamobj)
