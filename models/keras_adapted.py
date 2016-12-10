@@ -104,6 +104,9 @@ def _group_data():
     X = np.array([X_scaler.fit_transform(x) for x in X])
     # shuffles the seasons
     X, Y = shuffle_in_unison(X, Y)
+    avg_season_len = np.array([len([x for x in s if x.sum() > 0]) for s in X]).mean()
+    # print("avg season len: %s" % avg_season_len)
+    # print("random change acc: %s" % (1/avg_season_len))
     X = X.astype(float)
     return X, Y
 

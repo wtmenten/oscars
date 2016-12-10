@@ -1,0 +1,521 @@
+"year";"Academy Award";"Winner";"Movie Name";"Producer";"IMDB Rating";"IMDB Votes";"Tomatometer";"Average Critic Score";"Percent Audience Liked";"Average Audience Score"
+1927;" 1st";" False";" The Racket";" The Caddo Company";6.9;646;100;6.9;75;7.2
+1927;" 1st";" False";" 7th Heaven";" Fox";7.8;2090;100;9.3;84;8
+1927;" 1st";" True";" Wings";" Paramount Famous Lasky";7.8;8086;95;7.4;78;7.6
+1928;" 2nd";" False";" Alibi";" Feature Productions";6;460;43;5.8;41;6.6
+1928;" 2nd";" False";" In Old Arizona";" Fox";5.8;616;56;5.4;44;6.2
+1928;" 2nd";" True";" The Broadway Melody";" Metro-Goldwyn-Mayer";6.3;4616;35;5.3;21;5.6
+1928;" 2nd";" False";" Hollywood Revue";" Metro-Goldwyn-Mayer";7.6;1507;40;5.4;17;5.8
+1928;" 2nd";" False";" The Patriot";" Paramount Famous Lasky";0;0;"No info";"No info";67;8.4
+1929;" 3rd";" True";" All Quiet on the Western Front";" Universal";8.1;47445;98;8.9;89;7.8
+1929;" 3rd";" False";" The Big House";" Cosmopolitan";7.2;1235;83;7.2;78;7.2
+1929;" 3rd";" False";" Disraeli";" Warner Bros.";6.4;728;80;6.4;41;6.4
+1929;" 3rd";" False";" The Divorcee";" Metro-Goldwyn-Mayer";6.8;1950;75;6.4;63;7
+1929;" 3rd";" False";" The Love Parade";" Paramount Famous Lasky";7.2;1403;100;7.9;78;7.4
+1930;" 4th";" True";" Cimarron";" RKO Radio";6;3739;53;5.6;25;5.6
+1930;" 4th";" False";" East Lynne";" Fox";7.1;74;"No info";"No info";"No info";"No info"
+1930;" 4th";" False";" The Front Page";" The Caddo Company";6.9;1428;73;5.8;73;7.2
+1930;" 4th";" False";" Skippy";" Paramount Publix";6.3;455;100;7;54;6.6
+1930;" 4th";" False";" Trader Horn";" Metro-Goldwyn-Mayer";6.5;644;100;7.1;33;6
+1931;" 5th";" False";" Arrowsmith";" Samuel Goldwyn Productions";6.2;1037;86;7.2;42;6.2
+1931;" 5th";" False";" Bad Girl";" Fox";6.7;623;"No info";"No info";42;6.8
+1931;" 5th";" False";" The Champ";" Metro-Goldwyn-Mayer";7.3;2041;83;6.5;79;7.6
+1931;" 5th";" False";" Five Star Final";" First National";7.3;1178;91;7.2;77;7.6
+1931;" 5th";" True";" Grand Hotel";" Metro-Goldwyn-Mayer";7.6;13143;86;7.8;77;7.6
+1931;" 5th";" False";" One Hour with You";" Paramount Publix";7.4;1438;100;7.7;78;7.4
+1931;" 5th";" False";" Shanghai Express";" Paramount Publix";7.4;4993;100;8.6;81;7.6
+1931;" 5th";" False";" The Smiling Lieutenant";" Paramount Publix";7.8;2616;88;7.7;72;7.4
+1932;" 6th";" True";" Cavalcade";" Fox";6;3130;59;6.5;26;5.8
+1932;" 6th";" False";" A Farewell to Arms";" Paramount";6.6;3594;92;7.8;51;6.4
+1932;" 6th";" False";" 42nd Street";" Warner Bros.";7.7;8069;95;7.8;75;7.2
+1932;" 6th";" False";" I Am a Fugitive from a Chain Gang";" Warner Bros.";8.1;9109;100;8.3;91;8.2
+1932;" 6th";" False";" Lady for a Day";" Columbia";7.5;2734;100;7.6;79;7.6
+1932;" 6th";" False";" Little Women";" RKO Radio";7.4;4752;90;7.5;84;7
+1932;" 6th";" False";" The Private Life of Henry VIII";" London Films";7.2;2635;100;8.1;75;7
+1932;" 6th";" False";" She Done Him Wrong";" Paramount";6.5;4245;90;7.4;53;6.8
+1932;" 6th";" False";" Smilin' Through";" Metro-Goldwyn-Mayer";7;686;"No info";"No info";80;7.4
+1932;" 6th";" False";" State Fair";" Fox";6.9;543;80;6.3;78;7.2
+1934;" 7th";" False";" The Barretts of Wimpole Street";" Metro-Goldwyn-Mayer";7.1;1132;71;6.9;71;7.4
+1934;" 7th";" False";" Cleopatra";" Paramount";7;21963;55;5.9;70;6.8
+1934;" 7th";" False";" Flirtation Walk";" First National";5.8;416;100;6.9;33;6
+1934;" 7th";" False";" The Gay Divorcee";" RKO Radio";7.6;5339;100;7.8;83;7.8
+1934;" 7th";" False";" Here Comes the Navy";" Warner Bros.";6.4;587;"No info";"No info";46;6.6
+1934;" 7th";" False";" The House of Rothschild";" 20th Century";6.8;714;100;7.6;69;7.6
+1934;" 7th";" False";" Imitation of Life";" Universal";7.6;2946;84;7.7;91;8.4
+1934;" 7th";" True";" It Happened One Night";" Columbia";8.2;66354;98;8.9;93;8.2
+1934;" 7th";" False";" One Night of Love";" Columbia";6;394;60;6.6;57;6.4
+1934;" 7th";" False";" The Thin Man";" Metro-Goldwyn-Mayer";8.1;20917;97;8.6;94;8.4
+1934;" 7th";" False";" Viva Villa!";" Metro-Goldwyn-Mayer";6.6;842;80;7.5;54;6.4
+1934;" 7th";" False";" The White Parade";" Jesse L. Lasky ";6.9;39;60;6.1;"No info";"No info"
+1935;" 8th";" False";" Alice Adams";" RKO Radio";7.1;2818;93;7.8;71;7.2
+1935;" 8th";" False";" Broadway Melody of 1936";" Metro-Goldwyn-Mayer";6.9;1033;83;6.8;85;7.6
+1935;" 8th";" False";" Captain Blood";" Cosmopolitan";7.8;10001;100;8.4;89;8
+1935;" 8th";" False";" David Copperfield";" Metro-Goldwyn-Mayer";7.6;2859;"No info";"No info";30;5.8
+1935;" 8th";" False";" The Informer";" RKO Radio";7.6;4308;91;8.3;78;7.6
+1935;" 8th";" False";" Les Miserables";" 20th Century";7.7;2546;69;6.9;79;8
+1935;" 8th";" False";" The Lives of a Bengal Lancer";" Paramount";7.3;1868;100;8;75;7.4
+1935;" 8th";" False";" A Midsummer Night's Dream";" Warner Bros.";7.1;2378;40;5.2;43;6
+1935;" 8th";" True";" Mutiny on the Bounty";" Metro-Goldwyn-Mayer";7.2;11708;94;8.1;83;7.4
+1935;" 8th";" False";" Naughty Marietta";" Metro-Goldwyn-Mayer";7;815;43;7;82;8.4
+1935;" 8th";" False";" Ruggles of Red Gap";" Paramount";7.8;2749;100;8.3;91;8.2
+1935;" 8th";" False";" Top Hat";" RKO Radio";7.8;13425;100;8.6;91;8
+1936;" 9th";" False";" Anthony Adverse";" Warner Bros.";6.6;1169;13;4.3;47;6.4
+1936;" 9th";" False";" Dodsworth";" Samuel Goldwyn Productions";8.1;6266;88;7.5;86;7.8
+1936;" 9th";" True";" The Great Ziegfeld";" Metro-Goldwyn-Mayer";6.8;5158;65;6.3;51;6.6
+1936;" 9th";" False";" Libeled Lady";" Metro-Goldwyn-Mayer";7.9;5403;82;7.8;89;8
+1936;" 9th";" False";" Mr. Deeds Goes to Town";" Columbia";8;15187;89;8.3;86;7.8
+1936;" 9th";" False";" Romeo and Juliet";" Metro-Goldwyn-Mayer";7.7;23982;97;7.9;74;6.6
+1936;" 9th";" False";" San Francisco";" Metro-Goldwyn-Mayer";7.3;3865;100;7.4;71;7.4
+1936;" 9th";" False";" The Story of Louis Pasteur";" Cosmopolitan";7.4;1609;100;8.3;79;7.4
+1936;" 9th";" False";" A Tale of Two Cities";" Metro-Goldwyn-Mayer";7.8;3985;100;8.2;84;7.6
+1936;" 9th";" False";" Three Smart Girls";" Universal";6.8;863;86;7.6;58;7.2
+1937;" 10th";" False";" The Awful Truth";" Columbia";7.9;13722;91;8;88;8
+1937;" 10th";" False";" Captains Courageous";" Metro-Goldwyn-Mayer";8;6746;93;7.8;88;8
+1937;" 10th";" False";" Dead End";" Samuel Goldwyn Productions";7.5;4491;75;6.1;60;6.6
+1937;" 10th";" False";" The Good Earth";" Metro-Goldwyn-Mayer";7.8;3529;94;7.3;77;7.4
+1937;" 10th";" False";" In Old Chicago";" 20th Century-Fox";6.9;1552;67;6.3;54;6.8
+1937;" 10th";" True";" The Life of Emile Zola";" Warner Bros.";7.3;5085;75;7.2;73;7.2
+1937;" 10th";" False";" Lost Horizon";" Columbia";7.8;9427;100;7.5;82;7.6
+1937;" 10th";" False";" One Hundred Men and a Girl";" Universal";6.9;677;83;7.6;56;7
+1937;" 10th";" False";" Stage Door";" RKO Radio";7.9;5912;95;8.8;87;7.8
+1937;" 10th";" False";" A Star Is Born";" Selznick International Pictures";7.7;5385;96;8;83;7.4
+1938;" 11th";" False";" The Adventures of Robin Hood";" Warner Bros.-First National";8;39177;100;8.9;89;7.4
+1938;" 11th";" False";" Alexander's Ragtime Band";" 20th Century-Fox";7;1404;80;7;47;6.4
+1938;" 11th";" False";" Boys Town";" Metro-Goldwyn-Mayer";7.3;4005;89;7.2;82;7.4
+1938;" 11th";" False";" The Citadel";" Metro-Goldwyn-Mayer";7.2;1454;86;8;68;7
+1938;" 11th";" False";" Four Daughters";" Warner Bros.-First National";7.1;1283;100;7;83;7.6
+1938;" 11th";" False";" Grand Illusion";" Realization D'Art Cinematographique";8.1;27154;97;9.4;92;8.6
+1938;" 11th";" False";" Jezebel";" Warner Bros.";7.6;8941;94;7.5;82;7.6
+1938;" 11th";" False";" Pygmalion";" Metro-Goldwyn-Mayer";7.9;6042;94;8.2;85;7.6
+1938;" 11th";" False";" Test Pilot";" Metro-Goldwyn-Mayer";6.9;1509;71;7.2;68;7
+1938;" 11th";" True";" You Can't Take It with You";" Columbia";8;18056;91;7.6;88;8
+1939;" 12th";" False";" Dark Victory";" Warner Bros.-First National";7.6;7503;86;7.3;81;7.8
+1939;" 12th";" True";" Gone with the Wind";" Selznick International Pictures";8.2;219152;94;8.6;93;7.8
+1939;" 12th";" False";" Goodbye, Mr. Chips";" Metro-Goldwyn-Mayer";7.8;7998;81;7.8;88;7.8
+1939;" 12th";" False";" Love Affair";" RKO Radio";7.4;3104;86;8;72;7.4
+1939;" 12th";" False";" Mr. Smith Goes to Washington";" Columbia";8.2;78740;94;8.2;94;8.2
+1939;" 12th";" False";" Ninotchka";" Metro-Goldwyn-Mayer";8;14609;97;8.3;89;8
+1939;" 12th";" False";" Of Mice and Men";" Hal Roach ";7.8;4322;96;8;82;7
+1939;" 12th";" False";" Stagecoach";" Walter Wanger ";7.9;31690;100;9.2;86;7.8
+1939;" 12th";" False";" The Wizard of Oz";" Metro-Goldwyn-Mayer";8.1;296749;99;9.4;89;7.4
+1939;" 12th";" False";" Wuthering Heights";" Samuel Goldwyn Productions";7.7;12925;69;6.5;48;6
+1940;" 13th";" False";" All This, and Heaven Too";" Warner Bros.";7.7;3217;83;7;87;8
+1940;" 13th";" False";" Foreign Correspondent";" Walter Wanger ";7.6;13768;94;8.1;81;7.6
+1940;" 13th";" False";" The Grapes of Wrath";" 20th Century-Fox";8.1;64455;100;9;88;7.8
+1940;" 13th";" False";" The Great Dictator";" Charles Chaplin Productions";8.5;141001;92;8.8;95;8.4
+1940;" 13th";" False";" Kitty Foyle";" RKO Radio";7.1;2276;75;7;73;7.4
+1940;" 13th";" False";" The Letter";" Warner Bros.";7.7;8599;100;8.6;84;7.6
+1940;" 13th";" False";" The Long Voyage Home";" Argosy-Wanger";7.1;2813;100;8.1;72;7.2
+1940;" 13th";" False";" Our Town";" Sol Lesser ";6.8;1724;83;7;45;6.4
+1940;" 13th";" False";" The Philadelphia Story";" Metro-Goldwyn-Mayer";8.1;50873;100;8.8;93;8.2
+1940;" 13th";" True";" Rebecca";" Selznick International Pictures";8.2;89144;100;8.7;92;8.2
+1941;" 14th";" False";" Blossoms in the Dust";" Metro-Goldwyn-Mayer";7;1210;25;5.3;74;7.6
+1941;" 14th";" False";" Citizen Kane";" Mercury";8.4;303237;100;9.4;90;8.2
+1941;" 14th";" False";" Here Comes Mr. Jordan";" Columbia";7.7;4472;100;7.4;83;7.8
+1941;" 14th";" False";" Hold Back the Dawn";" Paramount";7.5;1248;100;8.7;77;7.6
+1941;" 14th";" True";" How Green Was My Valley";" 20th Century-Fox";7.8;16096;90;7.9;81;7.8
+1941;" 14th";" False";" The Little Foxes";" Samuel Goldwyn Productions";8.2;7633;100;8.5;88;8
+1941;" 14th";" False";" The Maltese Falcon";" Warner Bros.";8.1;115435;100;9;91;8
+1941;" 14th";" False";" One Foot in Heaven";" Warner Bros.";7.1;742;100;7.3;52;7
+1941;" 14th";" False";" Sergeant York";" Warner Bros.";7.8;12433;84;6.9;86;8
+1941;" 14th";" False";" Suspicion";" RKO Radio";7.4;23998;100;7.8;78;7.4
+1942;" 15th";" False";" The Invaders";" Ortus";7.4;4357;"No info";"No info";40;5.8
+1942;" 15th";" False";" Kings Row";" Warner Bros.";7.7;3091;100;7.7;76;7.4
+1942;" 15th";" False";" The Magnificent Ambersons";" Mercury";7.9;17064;91;8.5;85;8
+1942;" 15th";" True";" Mrs. Miniver";" Metro-Goldwyn-Mayer";7.6;11649;92;7.8;85;7.8
+1942;" 15th";" False";" The Pied Piper";" 20th Century-Fox";7.2;313;100;7.2;86;7
+1942;" 15th";" False";" The Pride of the Yankees";" Samuel Goldwyn Productions";7.8;7814;92;7.6;89;8
+1942;" 15th";" False";" Random Harvest";" Metro-Goldwyn-Mayer";8;5337;89;7.6;90;8.2
+1942;" 15th";" False";" The Talk of the Town";" Columbia";7.6;5379;93;7.4;85;7.6
+1942;" 15th";" False";" Wake Island";" Paramount";7;1377;83;7.2;58;7
+1942;" 15th";" False";" Yankee Doodle Dandy";" Warner Bros.";7.8;11202;92;8;83;7.6
+1943;" 16th";" True";" Casablanca";" Warner Bros.";8.6;394552;97;9.3;95;8.2
+1943;" 16th";" False";" For Whom the Bell Tolls";" Paramount";7;6371;77;6.4;62;7
+1943;" 16th";" False";" Heaven Can Wait";" 20th Century-Fox";6.9;14439;89;7.5;68;6.6
+1943;" 16th";" False";" The Human Comedy";" Metro-Goldwyn-Mayer";7.2;1330;80;5.8;72;7.2
+1943;" 16th";" False";" In Which We Serve";" Two Cities";7.3;3821;93;7.8;76;7.8
+1943;" 16th";" False";" Madame Curie";" Metro-Goldwyn-Mayer";7.2;1844;83;6.3;65;7.2
+1943;" 16th";" False";" The More the Merrier";" Columbia";8;4132;94;8.2;82;7.8
+1943;" 16th";" False";" The Ox-Bow Incident";" 20th Century-Fox";8.1;16157;94;8.1;91;8
+1943;" 16th";" False";" The Song of Bernadette";" 20th Century-Fox";7.7;4474;80;6.9;80;7.6
+1943;" 16th";" False";" Watch on the Rhine";" Warner Bros.";7.5;2813;80;6.8;61;7.2
+1944;" 17th";" False";" Double Indemnity";" Paramount";8.4;99831;96;9;95;8.4
+1944;" 17th";" False";" Gaslight";" Metro-Goldwyn-Mayer";6.6;326;83;7.7;90;8
+1944;" 17th";" True";" Going My Way";" Paramount";7.2;7622;78;7.1;77;7.4
+1944;" 17th";" False";" Since You Went Away";" Selznick International Pictures";7.6;3360;75;6.9;82;7.8
+1944;" 17th";" False";" Wilson";" 20th Century-Fox";7;1003;88;6.7;46;6.8
+1945;" 18th";" False";" Anchors Aweigh";" Metro-Goldwyn-Mayer";7.2;6052;62;6.8;80;7.4
+1945;" 18th";" False";" The Bells of St. Mary's";" Rainbow Productions";7.5;5518;94;7.3;78;7.4
+1945;" 18th";" True";" The Lost Weekend";" Paramount";8;25346;100;8.2;90;8
+1945;" 18th";" False";" Mildred Pierce";" Warner Bros.";8;16111;82;7.7;90;8.2
+1945;" 18th";" False";" Spellbound";" Selznick International Pictures";7.6;33425;83;7.2;82;7.6
+1946;" 19th";" True";" The Best Years of Our Lives";" Samuel Goldwyn Productions";8.1;41066;96;8.6;92;8.4
+1946;" 19th";" False";" Henry V";" J. Arthur Rank-Two Cities Films";7.3;4519;100;8.3;89;8
+1946;" 19th";" False";" It's a Wonderful Life";" Liberty Films";8.6;280928;94;8.9;95;8
+1946;" 19th";" False";" The Razor's Edge";" 20th Century-Fox";7.5;3981;83;6.9;72;7.4
+1946;" 19th";" False";" The Yearling";" Metro-Goldwyn-Mayer";7.3;4318;100;8.4;75;7
+1947;" 20th";" False";" The Bishop's Wife";" Samuel Goldwyn Productions";7.6;10268;82;6.4;82;7.6
+1947;" 20th";" False";" Crossfire";" RKO Radio";7.4;5476;79;7.2;75;7
+1947;" 20th";" True";" Gentleman's Agreement";" 20th Century-Fox";7.4;11013;78;7;77;7.4
+1947;" 20th";" False";" Great Expectations";" J. Arthur Rank-Cineguild";8;17815;100;8.4;88;7.8
+1947;" 20th";" False";" Miracle on 34th Street";" 20th Century-Fox";7.9;30379;96;8.3;87;7.2
+1948;" 21st";" True";" Hamlet";" J. Arthur Rank-Two Cities Films";7.8;11939;76;6.4;59;6.4
+1948;" 21st";" False";" Johnny Belinda";" Warner Bros.";7.8;3180;88;7.2;88;7.6
+1948;" 21st";" False";" The Red Shoes";" J. Arthur Rank-Archers";8.3;20451;96;9;92;8.4
+1948;" 21st";" False";" The Snake Pit";" 20th Century-Fox";7.7;4975;100;8.6;82;7.6
+1948;" 21st";" False";" The Treasure of the Sierra Madre";" Warner Bros.";8.3;80795;100;9;93;8.4
+1949;" 22nd";" True";" All the King's Men";" Robert Rossen Productions";7.6;9953;97;7.9;77;7.4
+1949;" 22nd";" False";" Battleground";" Metro-Goldwyn-Mayer";7.6;5212;100;8.4;82;7.4
+1949;" 22nd";" False";" The Heiress";" Paramount";8.3;9871;100;8.5;93;8.4
+1949;" 22nd";" False";" A Letter to Three Wives";" 20th Century-Fox";7.9;6268;94;8.2;86;7.6
+1949;" 22nd";" False";" Twelve O'Clock High";" 20th Century-Fox";7.8;10089;96;8.3;87;7.6
+1950;" 23rd";" True";" All about Eve";" 20th Century-Fox";8.3;84353;100;9.1;94;8.6
+1950;" 23rd";" False";" Born Yesterday";" Columbia";7.6;7585;95;8.2;86;7.8
+1950;" 23rd";" False";" Father of the Bride";" Metro-Goldwyn-Mayer";7.2;7873;73;6;70;6.4
+1950;" 23rd";" False";" King Solomon's Mines";" Metro-Goldwyn-Mayer";6.9;4447;11;3.6;31;5.4
+1950;" 23rd";" False";" Sunset Blvd.";" Paramount";8.5;142289;98;9.3;95;8.6
+1951;" 24th";" True";" An American in Paris";" Arthur Freed";7.2;22315;95;8;79;7.4
+1951;" 24th";" False";" Decision before Dawn";" Anatole Litvak and Frank McCarthy";7.4;1740;100;7.8;68;7.4
+1951;" 24th";" False";" A Place in the Sun";" George Stevens";7.8;15283;75;7.2;84;7.8
+1951;" 24th";" False";" Quo Vadis";" Sam Zimbalist";8.5;6;88;6.4;73;7.2
+1951;" 24th";" False";" A Streetcar Named Desire";" Charles K. Feldman";8;79478;98;8.7;90;8
+1952;" 25th";" True";" The Greatest Show on Earth";" Cecil B. DeMille";6.7;9599;44;5.3;56;6.8
+1952;" 25th";" False";" High Noon";" Stanley Kramer";8;81176;96;8.8;89;8
+1952;" 25th";" False";" Ivanhoe";" Pandro S. Berman";6.8;6458;79;6.1;65;6.6
+1952;" 25th";" False";" Moulin Rouge";" Romulus Films";7.6;226437;76;7.1;89;7.4
+1952;" 25th";" False";" The Quiet Man";" John Ford and Merian C. Cooper";7.9;27309;89;8;91;8.2
+1953;" 26th";" True";" From Here to Eternity";" Buddy Adler";7.8;34414;92;8.2;84;7.6
+1953;" 26th";" False";" Julius Caesar";" John Houseman";7.4;7988;95;7.8;81;7.2
+1953;" 26th";" False";" The Robe";" Frank Ross";6.8;6520;33;5.3;69;7
+1953;" 26th";" False";" Roman Holiday";" William Wyler";8.1;103378;98;8.4;94;8.2
+1953;" 26th";" False";" Shane";" George Stevens";7.7;28401;97;8.4;81;7.4
+1954;" 27th";" False";" The Caine Mutiny";" Stanley Kramer";7.9;20366;92;7.8;87;7.6
+1954;" 27th";" False";" The Country Girl";" William Perlberg";7.3;4112;83;7;78;7.2
+1954;" 27th";" True";" On the Waterfront";" Sam Spiegel";8.2;102837;98;9.1;95;8.4
+1954;" 27th";" False";" Seven Brides for Seven Brothers";" Jack Cummings";7.4;16252;88;7.7;87;7.4
+1954;" 27th";" False";" Three Coins in the Fountain";" Sol C. Siegel";6.3;2217;63;5.7;44;6.4
+1955;" 28th";" False";" Love Is a Many-Splendored Thing";" Buddy Adler";6.6;3345;50;5.8;57;6.6
+1955;" 28th";" True";" Marty";" Harold Hecht";7.1;8;100;8.1;88;8
+1955;" 28th";" False";" Mister Roberts";" Leland Hayward";7.8;12953;92;7.5;85;7.8
+1955;" 28th";" False";" Picnic";" Fred Kohlmar";7.2;6374;57;6.7;55;6.8
+1955;" 28th";" False";" The Rose Tattoo";" Hal B. Wallis";7.2;2644;80;7.8;76;7.2
+1956;" 29th";" True";" Around the World in 80 Days";" Michael Todd";6.8;18320;74;6.1;58;6.2
+1956;" 29th";" False";" Friendly Persuasion";" William Wyler";7.5;4940;88;7.5;82;7.8
+1956;" 29th";" False";" Giant";" George Stevens and Henry Ginsberg";7.7;26696;95;7.6;87;7.8
+1956;" 29th";" False";" The King and I";" Charles Brackett";7.5;19466;96;8.2;83;7.2
+1956;" 29th";" False";" The Ten Commandments";" Cecil B. DeMille";7.9;48616;94;7.5;86;7.4
+1957;" 30th";" True";" The Bridge on the River Kwai";" Sam Spiegel";8.2;152523;94;9.2;93;8
+1957;" 30th";" False";" Peyton Place";" Jerry Wald";7.2;4019;60;6;73;7.2
+1957;" 30th";" False";" Sayonara";" William Goetz";7.3;4359;100;7.2;79;7.4
+1957;" 30th";" False";" 12 Angry Men";" Henry Fonda and Reginald Rose";8.9;459379;92;7.3;86;7.6
+1957;" 30th";" False";" Witness for the Prosecution";" Arthur Hornblow";8.4;65112;100;8.5;95;8.4
+1958;" 31st";" False";" Auntie Mame";" Warner Bros.";8;8232;92;8;93;8.6
+1958;" 31st";" False";" Cat on a Hot Tin Roof";" Lawrence Weingarten";8.1;34308;97;7.7;93;8
+1958;" 31st";" False";" The Defiant Ones";" Stanley Kramer";7.7;9702;81;7;88;7.6
+1958;" 31st";" True";" Gigi";" Arthur Freed";6.9;14799;77;7.2;74;7.2
+1958;" 31st";" False";" Separate Tables";" Harold Hecht";7.5;4904;77;7.7;77;7.4
+1959;" 32nd";" False";" Anatomy of a Murder";" Otto Preminger";8.1;47128;100;8.6;91;8.2
+1959;" 32nd";" True";" Ben-Hur";" Sam Zimbalist";8.1;164708;88;7.9;89;7.4
+1959;" 32nd";" False";" The Diary of Anne Frank";" George Stevens";7.4;9649;76;7;77;7
+1959;" 32nd";" False";" The Nun's Story";" Henry Blanke";7.6;7163;93;7.7;82;7.6
+1959;" 32nd";" False";" Room at the Top";" John Woolf and James Woolf";7.7;3645;100;8.4;82;7.4
+1960;" 33rd";" False";" The Alamo";" John Wayne";6.9;11013;50;5.5;64;7
+1960;" 33rd";" True";" The Apartment";" Billy Wilder";8.3;111727;93;8.5;94;8.4
+1960;" 33rd";" False";" Elmer Gantry";" Bernard Smith";7.9;8080;96;7.8;86;7.8
+1960;" 33rd";" False";" Sons and Lovers";" Jerry Wald";7.3;953;75;6.9;54;7.2
+1960;" 33rd";" False";" The Sundowners";" Fred Zinnemann";7.3;2850;78;7;63;7.2
+1961;" 34th";" False";" Fanny";" Joshua Logan";7.1;1443;63;4.9;50;6.8
+1961;" 34th";" False";" The Guns of Navarone";" Carl Foreman";7.6;36487;95;7.9;86;7.4
+1961;" 34th";" False";" The Hustler";" Robert Rossen";8;63606;98;8.7;93;8
+1961;" 34th";" False";" Judgment at Nuremberg";" Stanley Kramer";8.3;45716;90;7.6;93;8.2
+1961;" 34th";" True";" West Side Story";" Robert Wise";7.6;73033;94;8.3;84;7
+1962;" 35th";" True";" Lawrence of Arabia";" Sam Spiegel";8.4;196528;97;9.1;93;8.4
+1962;" 35th";" False";" The Longest Day";" Darryl F. Zanuck";7.8;43718;92;7.5;90;7.8
+1962;" 35th";" False";" Meredith Willson's The Music Man";" Morton Da Costa";7.7;13171;94;8.1;85;7
+1962;" 35th";" False";" Mutiny on the Bounty";" Aaron Rosenberg";7.2;11708;94;8.1;83;7.4
+1962;" 35th";" False";" To Kill a Mockingbird";" Alan J. Pakula";8.3;219606;91;8.8;93;7.8
+1963;" 36th";" False";" America America";" Elia Kazan";7.9;3541;61;5.8;61;6.8
+1963;" 36th";" False";" Cleopatra";" Walter Wanger";7;21963;55;5.9;70;6.8
+1963;" 36th";" False";" How the West Was Won";" Bernard Smith";7.1;14447;100;7.2;74;7.2
+1963;" 36th";" False";" Lilies of the Field";" Ralph Nelson";7.7;6749;100;7.8;86;8
+1963;" 36th";" True";" Tom Jones";" Tony Richardson";6.7;8609;83;7.9;58;6.6
+1964;" 37th";" False";" Becket";" Hal B. Wallis";8;11214;76;7.3;88;8
+1964;" 37th";" False";" Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb";" Stanley Kubrick";8.5;348736;99;9.1;94;8.4
+1964;" 37th";" False";" Mary Poppins";" Walt Disney and Bill Walsh";7.8;109707;100;8.3;86;7
+1964;" 37th";" True";" My Fair Lady";" Jack L. Warner";7.9;67943;96;8.1;90;7.4
+1964;" 37th";" False";" Zorba the Greek";" Michael Cacoyannis";7.8;15646;86;7.3;87;8
+1965;" 38th";" False";" Darling";" Joseph Janni";7.2;4321;70;7;71;7.2
+1965;" 38th";" False";" Doctor Zhivago";" Carlo Ponti";7.4;90;81;7.5;88;7.8
+1965;" 38th";" False";" Ship of Fools";" Stanley Kramer";7.2;3833;81;6.8;80;7.4
+1965;" 38th";" True";" The Sound of Music";" Robert Wise";8;150713;86;8;91;7.2
+1965;" 38th";" False";" A Thousand Clowns";" Fred Coe";7.6;2512;69;6.8;91;8.4
+1966;" 39th";" False";" Alfie";" Lewis Gilbert";7.1;13;100;7.9;76;6.8
+1966;" 39th";" True";" A Man for All Seasons";" Fred Zinnemann";7.9;24029;82;7.8;87;8
+1966;" 39th";" False";" The Russians Are Coming The Russians Are Coming";" Norman Jewison";7.1;6300;84;6.8;75;7
+1966;" 39th";" False";" The Sand Pebbles";" Robert Wise";7.7;10402;93;7.1;88;7.8
+1966;" 39th";" False";" Who's Afraid of Virginia Woolf?";" Ernest Lehman";8.1;56954;95;8.5;91;8.2
+1967;" 40th";" False";" Bonnie and Clyde";" Warren Beatty";7.9;81202;88;8.2;88;7.6
+1967;" 40th";" False";" Doctor Dolittle";" Arthur P. Jacobs";6.2;6362;32;4.4;57;6.2
+1967;" 40th";" False";" The Graduate";" Lawrence Turman";8;212893;89;8.7;90;7.6
+1967;" 40th";" False";" Guess Who's Coming to Dinner";" Stanley Kramer";7.8;29398;68;6;85;7.6
+1967;" 40th";" True";" In the Heat of the Night";" Walter Mirisch";8;50201;95;8.2;92;7.8
+1968;" 41st";" False";" Funny Girl";" Ray Stark";7.5;13402;92;7.6;85;7.4
+1968;" 41st";" False";" The Lion in Winter";" Martin Poll";8.1;23456;91;8.2;90;8.2
+1968;" 41st";" True";" Oliver!";" John Woolf";7.5;25776;50;4.8;48;6.8
+1968;" 41st";" False";" Rachel, Rachel";" Paul Newman";7.5;2251;86;6.8;78;7.4
+1968;" 41st";" False";" Romeo and Juliet";" Anthony Havelock-Allan and John Brabourne";7.7;23982;97;7.9;74;6.6
+1969;" 42nd";" False";" Anne of the Thousand Days";" Hal B. Wallis";7.6;5255;42;6.6;83;7.8
+1969;" 42nd";" False";" Butch Cassidy and the Sundance Kid";" John Foreman";8.1;155114;89;8.2;92;8
+1969;" 42nd";" False";" Hello, Dolly!";" Ernest Lehman";7.2;10101;44;6;76;7
+1969;" 42nd";" True";" Midnight Cowboy";" Jerome Hellman";7.9;77783;90;8.2;88;7.8
+1969;" 42nd";" False";" Z";" Jacques Perrin and Hamed Rachedi";4.2;970;95;8.2;93;8.6
+1970;" 43rd";" False";" Airport";" Ross Hunter";3.1;58;80;6.2;53;6.2
+1970;" 43rd";" False";" Five Easy Pieces";" Bob Rafelson and Richard Wechsler";7.5;25816;87;8.4;85;7.8
+1970;" 43rd";" False";" Love Story";" Howard G. Minsky";6.9;23292;67;6;21;5.4
+1970;" 43rd";" False";" M*A*S*H";" Ingo Preminger";7.3;99;87;8.4;83;7.4
+1970;" 43rd";" True";" Patton";" Frank McCarthy";8;77384;95;8.4;94;8
+1971;" 44th";" False";" A Clockwork Orange";" Stanley Kubrick";8.3;569842;90;8.4;93;8
+1971;" 44th";" False";" Fiddler on the Roof";" Norman Jewison";8;30222;81;7.7;92;7.6
+1971;" 44th";" True";" The French Connection";" Philip D'Antoni";7.8;83997;98;8.7;87;7.8
+1971;" 44th";" False";" The Last Picture Show";" Stephen J. Friedman";8.1;31910;100;9.1;90;8.2
+1971;" 44th";" False";" Nicholas and Alexandra";" Sam Spiegel";7.3;3379;71;6.2;79;7.6
+1972;" 45th";" False";" Cabaret";" Cy Feuer";7.9;37050;97;8.3;87;7.6
+1972;" 45th";" False";" Deliverance";" John Boorman";7.7;79862;93;8.5;82;7.2
+1972;" 45th";" False";" The Emigrants";" Bengt Forslund";8;3577;88;9;88;8.2
+1972;" 45th";" True";" The Godfather";" Albert S. Ruddy";9.2;1177714;99;9.2;98;8.8
+1972;" 45th";" False";" Sounder";" Robert B. Radnitz";7.7;2597;88;7.7;77;7.6
+1973;" 46th";" False";" American Graffiti";" Francis Ford Coppola";7.5;64602;95;8.4;84;7.2
+1973;" 46th";" False";" Cries and Whispers";" Ingmar Bergman";8.2;20307;89;8.1;91;8.6
+1973;" 46th";" False";" The Exorcist";" William Peter Blatty";8;289236;86;8;87;7.4
+1973;" 46th";" True";" The Sting";" Tony Bill";8.3;179040;93;8.3;95;8.2
+1973;" 46th";" False";" A Touch of Class";" Melvin Frank";6.5;2094;91;6.8;65;6.2
+1974;" 47th";" False";" Chinatown";" Robert Evans";8.2;220508;98;9.3;93;8.4
+1974;" 47th";" False";" The Conversation";" Francis Ford Coppola";7.9;75818;98;8.7;90;8.2
+1974;" 47th";" True";" The Godfather Part II";" Francis Ford Coppola";9;807734;97;9.5;97;8.6
+1974;" 47th";" False";" Lenny";" Marvin Worth";7.6;11369;100;8.1;88;7.8
+1974;" 47th";" False";" The Towering Inferno";" Irwin Allen";6.9;30428;71;6.6;72;6.6
+1975;" 48th";" False";" Barry Lyndon";" Stanley Kubrick";8.1;103870;97;8.2;92;8.2
+1975;" 48th";" False";" Dog Day Afternoon";" Martin Bregman and Martin Elfand";8;185879;95;8.7;90;8
+1975;" 48th";" False";" Jaws";" Richard D. Zanuck and David Brown";8;420895;97;9.2;90;7
+1975;" 48th";" False";" Nashville";" Robert Altman";7.8;17803;94;8.7;84;8.2
+1975;" 48th";" True";" One Flew over the Cuckoo's Nest";" Saul Zaentz and Michael Douglas";8.7;687873;95;8.9;96;8.4
+1976;" 49th";" False";" All the President's Men";" Walter Coblenz";8;75490;93;9.1;92;7.8
+1976;" 49th";" False";" Bound for Glory";" Robert F. Blumofe and Harold Leventhal";7.4;3649;84;7.3;77;7.2
+1976;" 49th";" False";" Network";" Howard Gottfried";6.9;130;91;8.4;93;8.4
+1976;" 49th";" True";" Rocky";" Irwin Winkler and Robert Chartoff";5.8;64;93;8.4;69;6.4
+1976;" 49th";" False";" Taxi Driver";" Michael Phillips and Julia Phillips";8.3;518126;99;9;93;8.2
+1977;" 50th";" True";" Annie Hall";" Charles H. Joffe";8.1;197092;98;8.9;93;7.8
+1977;" 50th";" False";" The Goodbye Girl";" Ray Stark";7.4;9581;88;6.6;84;7.6
+1977;" 50th";" False";" Julia";" Richard Roth";7.4;6569;73;6.4;67;6.6
+1977;" 50th";" False";" Star Wars";" Gary Kurtz";8.7;927906;79;7.3;65;6.2
+1977;" 50th";" False";" The Turning Point";" Herbert Ross and Arthur Laurents";7;3259;58;6.2;68;7.2
+1978;" 51st";" False";" Coming Home";" Jerome Hellman";7.3;9560;81;7.4;82;7.4
+1978;" 51st";" True";" The Deer Hunter";" Barry Spikings";8.2;236848;94;8.6;92;8.2
+1978;" 51st";" False";" Heaven Can Wait";" Warren Beatty";6.9;14439;89;7.5;68;6.6
+1978;" 51st";" False";" Midnight Express";" Alan Marshall and David Puttnam";7.7;54678;95;7.7;89;7.8
+1978;" 51st";" False";" An Unmarried Woman";" Paul Mazursky and Tony Ray";7.2;3374;89;6.9;73;7
+1979;" 52nd";" False";" All That Jazz";" Robert Alan Aurthur";7.8;19585;85;7.5;86;7.8
+1979;" 52nd";" False";" Apocalypse Now";" Francis Coppola";8.5;458451;97;8.9;94;8.2
+1979;" 52nd";" False";" Breaking Away";" Peter Yates";7.7;17659;94;8.2;88;7.8
+1979;" 52nd";" True";" Kramer vs. Kramer";" Stanley R. Jaffe";7.8;99472;88;7.8;89;7.4
+1979;" 52nd";" False";" Norma Rae";" Tamara Asseyev and Alex Rose";7.4;7843;90;7.5;79;7.2
+1980;" 53rd";" False";" Coal Miner's Daughter";" Bernard Schwartz";7.5;13108;100;8.3;86;7.2
+1980;" 53rd";" False";" The Elephant Man";" Jonathan Sanger";8.2;165003;90;8.4;93;7.8
+1980;" 53rd";" True";" Ordinary People";" Ronald L. Schwary";7.8;35625;93;7.8;88;7.6
+1980;" 53rd";" False";" Raging Bull";" Irwin Winkler and Robert Chartoff";8.3;239314;97;9;93;8.2
+1980;" 53rd";" False";" Tess";" Claude Berri";7.4;11;85;7.1;78;7.2
+1981;" 54th";" False";" Atlantic City";" Denis Heroux and John Kemeny";7.4;11587;100;8.6;77;7.2
+1981;" 54th";" True";" Chariots of Fire";" David Puttnam";7.2;41228;83;7.7;80;7.2
+1981;" 54th";" False";" On Golden Pond";" Bruce Gilbert";7.7;21681;92;7.5;87;7.4
+1981;" 54th";" False";" Raiders of the Lost Ark";" Frank Marshall";8.5;672883;94;9.2;96;8.2
+1981;" 54th";" False";" Reds";" Warren Beatty";7.5;16483;94;7.9;82;7.6
+1982;" 55th";" False";" E.T. The Extra-Terrestrial";" Steven Spielberg and Kathleen Kennedy";7.9;286444;98;9.2;72;7
+1982;" 55th";" True";" Gandhi";" Richard Attenborough";8.1;174903;88;8;92;8
+1982;" 55th";" False";" Missing";" Edward Lewis and Mildred Lewis";7.1;817;64;5.9;65;7.2
+1982;" 55th";" False";" Tootsie";" Sydney Pollack and Dick Richards";7.4;78436;89;7.7;81;6.8
+1982;" 55th";" False";" The Verdict";" Richard D. Zanuck and David Brown";7.8;26873;96;7.8;88;7.8
+1983;" 56th";" False";" The Big Chill";" Michael Shamberg";7.2;26068;68;6.2;77;7.2
+1983;" 56th";" False";" The Dresser";" Peter Yates";7.7;3713;100;8;88;7.6
+1983;" 56th";" False";" The Right Stuff";" Irwin Winkler and Robert Chartoff";7.9;45842;98;8.9;90;8
+1983;" 56th";" False";" Tender Mercies";" Philip S. Hobel";7.5;7260;85;7.3;82;7.6
+1983;" 56th";" True";" Terms of Endearment";" James L. Brooks";7.4;40990;88;7.5;84;7.4
+1984;" 57th";" True";" Amadeus";" Saul Zaentz";8.3;276072;95;8.7;95;7.8
+1984;" 57th";" False";" The Killing Fields";" David Puttnam";7.9;42587;93;8.3;92;8
+1984;" 57th";" False";" A Passage to India";" John Brabourne and Richard Goodwin";7.4;13167;85;7.3;78;7.2
+1984;" 57th";" False";" Places in the Heart";" Arlene Donovan";7.3;7830;96;8.1;82;7.4
+1984;" 57th";" False";" A Soldier's Story";" Norman Jewison";7.2;6767;89;7.2;82;7.6
+1985;" 58th";" False";" The Color Purple";" Steven Spielberg";7.8;61926;88;6.9;94;7.8
+1985;" 58th";" False";" Kiss of the Spider Woman";" David Weisman";7.4;11076;88;7.5;81;7.2
+1985;" 58th";" True";" Out of Africa";" Sydney Pollack";7.2;53326;56;6.6;83;7.4
+1985;" 58th";" False";" Prizzi's Honor";" John Foreman";6.8;18802;88;7.1;62;6.6
+1985;" 58th";" False";" Witness";" Edward S. Feldman";7.8;91;90;7.6;82;8.2
+1986;" 59th";" False";" Children of a Lesser God";" Burt Sugarman and Patrick Palmer";7.2;11880;81;7.2;78;7.2
+1986;" 59th";" False";" Hannah and Her Sisters";" Robert Greenhut";8;53541;93;8.5;91;7.8
+1986;" 59th";" False";" The Mission";" Fernando Ghia and David Puttnam";7.5;44803;65;6.4;87;7.6
+1986;" 59th";" True";" Platoon";" Arnold Kopelson";8.1;296669;88;8.1;93;7.8
+1986;" 59th";" False";" A Room with a View";" Ismail Merchant";7.4;30098;100;8.4;86;7.8
+1987;" 60th";" False";" Broadcast News";" James L. Brooks";7.2;21537;98;8.1;78;7.2
+1987;" 60th";" False";" Fatal Attraction";" Stanley R. Jaffe and Sherry Lansing";6.9;56229;78;6.7;71;6.6
+1987;" 60th";" False";" Hope and Glory";" John Boorman";7.4;9880;94;8.3;83;7.6
+1987;" 60th";" True";" The Last Emperor";" Jeremy Thomas";7.8;71398;92;8.1;88;7.4
+1987;" 60th";" False";" Moonstruck";" Patrick Palmer and Norman Jewison";7.1;35956;92;7.8;80;6.8
+1988;" 61st";" False";" The Accidental Tourist";" Lawrence Kasdan";6.8;12434;79;7.1;60;6.4
+1988;" 61st";" False";" Dangerous Liaisons";" Norma Heyman and Hank Moonjean";7.7;53433;93;7.7;83;7.4
+1988;" 61st";" False";" Mississippi Burning";" Frederick Zollo and Robert F. Colesberry";7.8;66581;89;6.5;90;7.4
+1988;" 61st";" True";" Rain Man";" Mark Johnson";8;388417;90;7.9;90;7.6
+1988;" 61st";" False";" Working Girl";" Douglas Wick";6.7;41840;84;6.8;67;6.4
+1989;" 62nd";" False";" Born on the Fourth of July";" A. Kitman Ho and Oliver Stone";7.2;77999;90;7.5;76;6.8
+1989;" 62nd";" False";" Dead Poets Society";" Steven Haft";8;282249;85;7.3;92;7.6
+1989;" 62nd";" True";" Driving Miss Daisy";" Richard D. Zanuck and Lili Fini Zanuck";7.4;73613;82;7.2;81;7
+1989;" 62nd";" False";" Field of Dreams";" Lawrence Gordon and Charles Gordon";7.5;87713;86;7.8;86;6.8
+1989;" 62nd";" False";" My Left Foot";" Noel Pearson";7.9;50885;97;8.2;92;8
+1990;" 63rd";" False";" Awakenings";" Walter F. Parkes and Lawrence Lasker";7.8;94263;88;6.7;89;7.4
+1990;" 63rd";" True";" Dances With Wolves";" Jim Wilson and Kevin Costner";8;189191;82;7.5;87;7.2
+1990;" 63rd";" False";" Ghost";" Lisa Weinstein";7.9;8;73;6.5;55;6.2
+1990;" 63rd";" False";" The Godfather, Part III";" Francis Ford Coppola";7.6;272143;67;6.4;78;7.4
+1990;" 63rd";" False";" Good Fellas";" Irwin Winkler";8.7;743934;96;8.9;97;8.6
+1991;" 64th";" False";" Beauty and the Beast";" Don Hahn";8;315149;93;8.4;92;7.4
+1991;" 64th";" False";" Bugsy";" Mark Johnson";5.6;7;85;7;69;6.4
+1991;" 64th";" False";" JFK";" A. Kitman Ho and Oliver Stone";8;115134;85;7.7;88;7.6
+1991;" 64th";" False";" The Prince of Tides";" Barbra Streisand and Andrew Karsch";6.6;12709;73;6.5;70;6.8
+1991;" 64th";" True";" The Silence of the Lambs";" Edward Saxon";8.6;907352;95;8.5;95;8.2
+1992;" 65th";" False";" The Crying Game";" Stephen Woolley";7.3;41887;97;8.3;78;7
+1992;" 65th";" False";" A Few Good Men";" David Brown";7.6;184755;81;7;89;7.2
+1992;" 65th";" False";" Howards End";" Ismail Merchant";7.5;21534;92;8.3;82;7.4
+1992;" 65th";" False";" Scent of a Woman";" Martin Brest";8;197623;88;7.1;92;7.6
+1992;" 65th";" True";" Unforgiven";" Clint Eastwood";6.9;60;95;8.7;93;8
+1993;" 66th";" False";" The Fugitive";" Arnold Kopelson";7.8;216547;96;7.9;89;7.2
+1993;" 66th";" False";" In the Name of the Father";" Jim Sheridan";8.1;112426;94;7.8;95;8
+1993;" 66th";" False";" The Piano";" Jan Chapman";7.6;64713;90;8.2;86;7.4
+1993;" 66th";" False";" The Remains of the Day";" Mike Nichols";7.9;46388;97;8.4;89;7.6
+1993;" 66th";" True";" Schindler's List";" Steven Spielberg";8.9;882582;96;9;97;8.6
+1994;" 67th";" True";" Forrest Gump";" Wendy Finerman";6.8;189;72;7.2;95;8.2
+1994;" 67th";" False";" Four Weddings and a Funeral";" Duncan Kenworthy";7.1;109344;95;7.6;74;6.4
+1994;" 67th";" False";" Pulp Fiction";" Lawrence Bender";7.7;14;94;9.1;96;8.4
+1994;" 67th";" False";" Quiz Show";" Robert Redford";7.5;54266;96;8.2;87;7.2
+1994;" 67th";" False";" The Shawshank Redemption";" Niki Marvin";9.3;1723280;91;8.2;98;8.8
+1995;" 68th";" False";" Apollo 13";" Brian Grazer";3.8;5;95;8.2;86;7.2
+1995;" 68th";" False";" Babe";" George Miller";6.8;95477;97;8.3;67;6
+1995;" 68th";" True";" Braveheart";" Mel Gibson";8.4;750378;78;7.2;85;7.6
+1995;" 68th";" False";" The Postman (Il Postino)";" Mario Cecchi Gori";7.8;26597;93;8;94;8.2
+1995;" 68th";" False";" Sense and Sensibility";" Lindsay Doran";7.7;79554;98;8;90;7.6
+1996;" 69th";" True";" The English Patient";" Saul Zaentz";7.4;144228;84;7.6;83;7.2
+1996;" 69th";" False";" Fargo";" Ethan Coen";8.1;463308;94;8.7;93;7.8
+1996;" 69th";" False";" Jerry Maguire";" James L. Brooks";7.3;192695;82;7.6;79;6.6
+1996;" 69th";" False";" Secrets & Lies";" Simon Channing-Williams";7.1;7;94;8.6;91;8.2
+1996;" 69th";" False";" Shine";" Jane Scott";7.7;43644;91;8.1;90;7.6
+1997;" 70th";" False";" As Good as It Gets";" James L. Brooks";7.7;227157;86;7.2;86;7
+1997;" 70th";" False";" The Full Monty";" Uberto Pasolini";7.2;83114;95;7.5;79;6.6
+1997;" 70th";" False";" Good Will Hunting";" Lawrence Bender";8.3;618670;97;8.1;94;7.8
+1997;" 70th";" False";" L.A. Confidential";" Arnon Milchan";8.3;421424;99;8.7;94;7.6
+1997;" 70th";" True";" Titanic";" James Cameron and Jon Landau";7.7;806858;88;8;69;6.6
+1998;" 71st";" False";" Elizabeth";" Alison Owen";7.5;76866;82;7.3;86;7.6
+1998;" 71st";" False";" Life Is Beautiful";" Elda Ferri and Gianluigi Braschi";8.6;431336;80;7.5;96;8.6
+1998;" 71st";" False";" Saving Private Ryan";" Steven Spielberg";8.6;900171;92;8.6;95;8
+1998;" 71st";" True";" Shakespeare in Love";" David Parfitt";7.2;177748;92;8.3;80;6.8
+1998;" 71st";" False";" The Thin Red Line";" Robert Michael Geisler";7.6;140738;78;7.2;80;7
+1999;" 72nd";" True";" American Beauty";" Bruce Cohen and Dan Jinks";8.4;837628;88;8.2;93;7.6
+1999;" 72nd";" False";" The Cider House Rules";" Richard N. Gladstein";7.4;79875;71;6.6;77;6.8
+1999;" 72nd";" False";" The Green Mile";" David Valdes and Frank Darabont";8.5;803074;80;6.8;94;8.2
+1999;" 72nd";" False";" The Insider";" Michael Mann and Pieter Jan Brugge";7.9;135168;96;8.1;90;7.6
+1999;" 72nd";" False";" The Sixth Sense";" Frank Marshall";8.1;716993;85;7.6;89;7.6
+2000;" 73rd";" False";" Chocolat";" David Brown";7.6;72;63;6;83;7.2
+2000;" 73rd";" False";" Crouching Tiger, Hidden Dragon";" Bill Kong";7.9;219473;97;8.6;86;7.2
+2000;" 73rd";" False";" Erin Brockovich";" Danny DeVito";5.3;31;84;7.3;80;7
+2000;" 73rd";" True";" Gladiator";" Douglas Wick";6.7;68;76;7.2;87;7.6
+2000;" 73rd";" False";" Traffic";" Edward Zwick";5.1;79;92;8;85;7.2
+2001;" 74th";" True";" A Beautiful Mind";" Brian Grazer and Ron Howard";8.2;624867;75;7.2;93;7.8
+2001;" 74th";" False";" Gosford Park";" Robert Altman";7.3;65928;86;7.5;78;7
+2001;" 74th";" False";" In the Bedroom";" Graham Leader";7.5;32655;93;7.9;81;7.4
+2001;" 74th";" False";" The Lord of the Rings: The Fellowship of the Ring";" Peter Jackson";8.8;1260698;91;8.2;95;8.2
+2001;" 74th";" False";" Moulin Rouge";" Martin Brown";7.6;226437;76;7.1;89;7.4
+2002;" 75th";" True";" Chicago";" Martin Richards";8;24;86;8;83;7
+2002;" 75th";" False";" Gangs of New York";" Alberto Grimaldi and Harvey Weinstein";6.7;83;75;7.1;81;7
+2002;" 75th";" False";" The Hours";" Scott Rudin and Robert Fox";7.6;103404;81;7.4;84;7.4
+2002;" 75th";" False";" The Lord of the Rings: The Two Towers";" Barrie M. Osborne";8.3;1979;96;8.5;95;8.2
+2002;" 75th";" False";" The Pianist";" Roman Polanski";8.5;510731;96;8.2;95;8.2
+2003;" 76th";" True";" The Lord of the Rings: The Return of the King";" Barrie M. Osborne";8.3;1724;95;8.7;86;7.4
+2003;" 76th";" False";" Lost in Translation";" Ross Katz and Sofia Coppola";6.8;6;95;8.4;86;7.2
+2003;" 76th";" False";" Master and Commander: The Far Side of the World";" Samuel Goldwyn";7.4;170223;85;7.6;80;6.8
+2003;" 76th";" False";" Mystic River";" Robert Lorenz";8;343132;87;7.7;89;7.4
+2003;" 76th";" False";" Seabiscuit";" Kathleen Kennedy";8;69;77;7.1;76;6.6
+2004;" 77th";" False";" The Aviator";" Michael Mann and Graham King";7.5;268588;87;7.8;79;6.8
+2004;" 77th";" False";" Finding Neverland";" Richard N. Gladstein and Nellie Bellflower";7.8;176051;83;7.5;87;7.4
+2004;" 77th";" True";" Million Dollar Baby";" Clint Eastwood";8.1;491177;91;8.4;90;7.6
+2004;" 77th";" False";" Ray";" Taylor Hackford";8.8;97;81;7.3;87;7.6
+2004;" 77th";" False";" Sideways";" Michael London";7.5;151701;96;8.5;78;6.8
+2005;" 78th";" False";" Brokeback Mountain";" Diana Ossana and James Schamus";7.7;263100;87;8.2;82;6.8
+2005;" 78th";" False";" Capote";" Caroline Baron";7.4;102036;90;8.2;81;7.2
+2005;" 78th";" True";" Crash";" Paul Haggis and Cathy Schulman";5.3;9;75;6.8;70;7
+2005;" 78th";" False";" Good Night, and Good Luck.";" Grant Heslov";7.5;84690;93;8.1;83;7.2
+2005;" 78th";" False";" Munich";" Kathleen Kennedy";4.6;30;78;7.5;83;7.2
+2006;" 79th";" False";" Babel";" Alejandro González Iñárritu";7.5;246744;100;7.2;83;7.2
+2006;" 79th";" True";" The Departed";" Graham King";8.5;891309;91;8.2;94;8.2
+2006;" 79th";" False";" Letters from Iwo Jima";" Clint Eastwood";7.9;133474;91;8.2;86;7.6
+2006;" 79th";" False";" Little Miss Sunshine";" David T. Friendly";7.8;361214;91;7.7;91;8
+2006;" 79th";" False";" The Queen";" Andy Harries";7.3;86435;92;7.3;88;8.4
+2007;" 80th";" False";" Atonement";" Tim Bevan";9;6;83;7.4;80;7.6
+2007;" 80th";" False";" Juno";" Lianne Halfon";7.5;419757;94;8.1;88;8.2
+2007;" 80th";" False";" Michael Clayton";" Sydney Pollack";7.3;135029;90;7.6;69;7
+2007;" 80th";" True";" No Country for Old Men";" Scott Rudin";8.1;626193;93;8.7;86;8
+2007;" 80th";" False";" There Will Be Blood";" JoAnne Sellar";8.2;6;91;8.4;86;8
+2008;" 81st";" False";" The Curious Case of Benjamin Button";" Kathleen Kennedy";7.8;466710;72;7.1;80;7.4
+2008;" 81st";" False";" Frost/Nixon";" Brian Grazer";7.7;89381;92;7.9;88;7.6
+2008;" 81st";" False";" Milk";" Dan Jinks and Bruce Cohen";9.3;6;94;8;89;8
+2008;" 81st";" False";" The Reader";" Anthony Minghella";7.6;192318;82;7.1;71;7.2
+2008;" 81st";" True";" Slumdog Millionaire";" Christian Colson";8;651130;92;8.4;90;8
+2009;" 82nd";" False";" Avatar";" James Cameron and Jon Landau";7.9;899530;83;7.5;82;8.2
+2009;" 82nd";" False";" The Blind Side";" Gil Netter";7.7;227224;66;6.1;85;8.2
+2009;" 82nd";" False";" District 9";" Peter Jackson and Carolynne Cunningham";7.2;9;90;7.8;82;7
+2009;" 82nd";" False";" An Education";" Finola Dwyer and Amanda Posey";3.4;71;94;7.9;80;7.6
+2009;" 82nd";" True";" The Hurt Locker";" Kathryn Bigelow";7.1;375;98;8.5;84;7.8
+2009;" 82nd";" False";" Inglourious Basterds";" Lawrence Bender";8.3;905555;89;7.8;87;7.8
+2009;" 82nd";" False";" Precious: Based on the Novel 'Push' by Sapphire";" Lee Daniels";7.3;88297;91;7.8;81;7.2
+2009;" 82nd";" False";" A Serious Man";" Joel Coen and Ethan Coen";7;103802;89;7.9;67;7
+2009;" 82nd";" False";" Up";" Jonas Rivera";6.3;98;98;8.7;90;7.6
+2009;" 82nd";" False";" Up in the Air";" Daniel Dubiecki";7.2;71;91;8.1;79;7.4
+2010;" 83rd";" False";" Black Swan";" Mike Medavoy";6.3;7;87;8.2;84;8
+2010;" 83rd";" False";" The Fighter";" David Hoberman";7.8;29;90;7.8;89;8.2
+2010;" 83rd";" False";" Inception";" Emma Thomas and Christopher Nolan";7.6;569;86;8.1;91;8.4
+2010;" 83rd";" False";" The Kids Are All Right";" Gary Gilbert";7.3;7;93;7.8;73;7.2
+2010;" 83rd";" True";" The King's Speech";" Iain Canning";8;514217;95;8.6;92;8.6
+2010;" 83rd";" False";" 127 Hours";" Christian Colson";7.3;9;93;8.3;85;8
+2010;" 83rd";" False";" The Social Network";" Scott Rudin";7.7;488022;96;9;86;8.2
+2010;" 83rd";" False";" Toy Story 3";" Darla K. Anderson";8.3;556525;99;8.9;89;8.6
+2010;" 83rd";" False";" True Grit";" Scott Rudin";7.7;245009;96;8.4;85;8
+2010;" 83rd";" False";" Winter's Bone";" Anne Rosellini and Alix Madigan-Yorkin";7.2;113015;94;8.3;76;7.4
+2011;" 84th";" True";" The Artist";" Thomas Langmann";7.2;6;97;8.8;87;8.4
+2011;" 84th";" False";" The Descendants";" Jim Burke";7.3;207007;89;8.1;79;7.6
+2011;" 84th";" False";" Extremely Loud & Incredibly Close";" Scott Rudin";6.9;82819;46;5.5;61;7
+2011;" 84th";" False";" The Help";" Brunson Green";8.6;653;75;7;89;8.4
+2011;" 84th";" False";" Hugo";" Graham King and Martin Scorsese";7.5;248840;94;8.3;78;7.8
+2011;" 84th";" False";" Midnight in Paris";" Letty Aronson and Stephen Tenenbaum";7.7;306318;93;7.8;83;8
+2011;" 84th";" False";" Moneyball";" Michael De Luca";7.6;287554;94;8;86;8
+2011;" 84th";" False";" The Tree of Life";" Sarah Green";7.4;44;84;8.1;60;6.6
+2011;" 84th";" False";" War Horse";" Steven Spielberg and Kathleen Kennedy";7.2;117927;76;7;74;7.6
+2012;" 85th";" False";" Amour";" Margaret Menegoz";7.9;71679;93;8.7;82;8
+2012;" 85th";" True";" Argo";" Grant Heslov";7.7;459836;96;8.4;90;8.4
+2012;" 85th";" False";" Beasts of the Southern Wild";" Dan Janvey";7.3;71182;86;8.2;76;7.6
+2012;" 85th";" False";" Django Unchained";" Stacey Sher";8.5;978431;88;8;91;8.6
+2012;" 85th";" False";" Les Misérables";" Tim Bevan";7.6;247346;69;6.9;79;8
+2012;" 85th";" False";" Life of Pi";" Gil Netter";9;5;87;7.9;84;8.2
+2012;" 85th";" False";" Lincoln";" Steven Spielberg and Kathleen Kennedy";6;8;90;8;80;8
+2012;" 85th";" False";" Silver Linings Playbook";" Donna Gigliotti";7.8;542281;92;8.2;86;8.2
+2012;" 85th";" False";" Zero Dark Thirty";" Mark Boal";7.4;219293;92;8.6;80;8
+2013;" 86th";" False";" American Hustle";" Charles Roven";7.3;363690;93;8.2;74;7.6
+2013;" 86th";" False";" Captain Phillips";" Scott Rudin";7.9;329581;93;8.3;89;8.4
+2013;" 86th";" False";" Dallas Buyers Club";" Robbie Brenner and Rachel Winter";8;334002;94;7.8;91;8.4
+2013;" 86th";" False";" Gravity";" Alfonso Cuarón and David Heyman";10;7;96;9;80;8
+2013;" 86th";" False";" Her";" Megan Ellison";5.9;97;95;8.5;82;8
+2013;" 86th";" False";" Nebraska";" Albert Berger and Ron Yerxa";7.7;92423;91;8.1;83;8
+2013;" 86th";" False";" Philomena";" Gabrielle Tana";7.6;77401;92;7.8;89;8.2
+2013;" 86th";" True";" 12 Years a Slave";" Brad Pitt";8.1;452005;96;9;90;8.6
+2013;" 86th";" False";" The Wolf of Wall Street";" Martin Scorsese";8.2;804876;77;7.7;82;8
+2014;" 87th";" False";" American Sniper";" Clint Eastwood";7.3;333047;72;6.8;85;8.2
+2014;" 87th";" True";" Birdman or (The Unexpected Virtue of Ignorance)";" Alejandro G. Iñárritu";7.8;404650;91;8.5;77;7.8
+2014;" 87th";" False";" Boyhood";" Richard Linklater and Cathleen Sutherland";7.9;272461;98;9.2;81;8
+2014;" 87th";" False";" The Grand Budapest Hotel";" Wes Anderson";8.1;491790;92;8.4;86;8.2
+2014;" 87th";" False";" The Imitation Game";" Nora Grossman";8.1;488622;90;7.7;91;8.4
+2014;" 87th";" False";" Selma";" Christian Colson";7.5;62883;99;8.7;86;8.2
+2014;" 87th";" False";" The Theory of Everything";" Tim Bevan";7.7;274825;79;7.3;84;8
+2014;" 87th";" False";" Whiplash";" Jason Blum";8.5;420041;94;8.6;94;9
