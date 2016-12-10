@@ -8,12 +8,18 @@ numpy==1.11.2
 pandas==0.19.1
 pbr==1.10.0
 protobuf==3.0.0
-PyMySQL==0.7.9
 pyparsing==2.1.10
 python-dateutil==2.6.0
 pytz==2016.7
 PyYAML==3.12
+scikit-learn==0.18.1
 scipy==0.18.1
 six==1.10.0
-tensorflow==0.11.0
+sklearn==0.0
 Theano==0.8.2
+# to choose a tensor flow installation go to
+# https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md
+
+# eg. linux cpu only
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.0rc0-cp27-none-linux_x86_64.whl
+#tensorflow==0.11.0

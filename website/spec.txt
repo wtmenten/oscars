@@ -1,0 +1,17 @@
+The goal of this assignment is to encourage you to start building a data portfolio.  This will include links to projects you have worked on.  The project in this class is one that you can point to.  Previous students have used their group projects for getting interviews and jobs.  
+
+For this assignment, you will create a webpage that summarizes your project.  It does not need to be more than 1-page that summarizes your project.  You are free to create this page however you like, but the webpage must include the following:
+
+1. "INFO 370: Introduction to Data Science" somewhere on the page so readers know where the project originated from
+
+2.  Title of the project
+
+3.  Team members in the project and someone to contact if a reader has questions
+
+4.  At least one picture or interactive visualization that summarizes your project and/or results
+
+5.  Abstract or summary (1 - 2 paragraphs) describing in words your project, methods and results
+
+6.  The webpage must be easily transferable from one server to the next.  Include all library dependencies and data for the website to function properly. 
+
+* If you don't want me to make your project available for others to see, please let me know.
